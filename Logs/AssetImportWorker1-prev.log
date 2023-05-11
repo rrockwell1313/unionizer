@@ -15,7 +15,7 @@ C:/Users/Batman/Unionizer
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-53178
+55472
 Successfully changed project path to: C:/Users/Batman/Unionizer
 C:/Users/Batman/Unionizer
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/Batman/Unionizer
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 429.42 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 410.81 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.12f1 (8af3c3e441b1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -58,52 +58,168 @@ Direct3D:
     Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
     Vendor:   NVIDIA
     VRAM:     4017 MB
-    Driver:   31.0.15.3141
+    Driver:   31.0.15.3179
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56100
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56916
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.017370 seconds.
+Registered in 0.016094 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 180.78 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 152.03 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.082 seconds
+- Completed reload, in  1.117 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2083ms)
-		BeginReloadAssembly (856ms)
+	ReloadAssembly (1117ms)
+		BeginReloadAssembly (125ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1004ms)
-			LoadAssemblies (907ms)
+		EndReloadAssembly (805ms)
+			LoadAssemblies (124ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (203ms)
+			SetupTypeCache (181ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (611ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (475ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (125ms)
+				InitializePlatformSupportModulesInManaged (94ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (181ms)
+				RefreshPlugins (152ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (211ms)
-				ProcessInitializeOnLoadMethodAttributes (91ms)
+				ProcessInitializeOnLoadAttributes (153ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009438 seconds.
-Android Extension - Scanning For ADB Devices 5667 ms
+Registered in 0.008988 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Batman\Unionizer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Batman\Unionizer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.042 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2044ms)
+		BeginReloadAssembly (329ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (176ms)
+		EndReloadAssembly (1504ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (513ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (708ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (155ms)
+				ProcessInitializeOnLoadAttributes (455ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3381 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (113.9 KB). Loaded Objects now: 3841.
+Memory consumption went from 118.6 MB to 118.5 MB.
+Total: 7.335900 ms (FindLiveObjects: 0.656600 ms CreateObjectMapping: 0.485000 ms MarkObjects: 5.936100 ms  DeleteObjects: 0.256000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 149218.882407 seconds.
+  path: Assets/PolygonOffice/Textures
+  artifactKey: Guid(5af24f1b39af62045a602b32a399b20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonOffice/Textures using Guid(5af24f1b39af62045a602b32a399b20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb814418fa3c13bc4d2595aa60992bfa') in 0.123790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/PolygonOffice/Textures/PolygonOffice_Texture_02_A.png
+  artifactKey: Guid(aa02daf680a4ac64bb12d001f5959a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonOffice/Textures/PolygonOffice_Texture_02_A.png using Guid(aa02daf680a4ac64bb12d001f5959a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42c8a97bc1bb6a72e0f55e0e700f9c04') in 1.480008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/PolygonOffice/Textures/PolygonOffice_Texture_01_A.png
+  artifactKey: Guid(63070be2573ac6640a080b00e06cc159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonOffice/Textures/PolygonOffice_Texture_01_A.png using Guid(63070be2573ac6640a080b00e06cc159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b12ea2e70a23dab4706e866a021a7e9a') in 0.533179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PolygonOffice/Textures/Net_Alpha.tga
+  artifactKey: Guid(824b365c88b97554a9351d1dfcb3f6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonOffice/Textures/Net_Alpha.tga using Guid(824b365c88b97554a9351d1dfcb3f6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d1bf90b50cdec1e6e69f8112a052a8f') in 0.479153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/PolygonOffice/Textures/PolygonOffice_Texture_04_C.png
+  artifactKey: Guid(a181a423d99c2d346b0977edd3fdfb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonOffice/Textures/PolygonOffice_Texture_04_C.png using Guid(a181a423d99c2d346b0977edd3fdfb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '083b7abdb8e98120d51ffac019f48ed6') in 0.867919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PolygonOffice/Textures/PolygonOffice_Texture_01_B.png
+  artifactKey: Guid(701ba2df516391c4ab98012d036efe00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonOffice/Textures/PolygonOffice_Texture_01_B.png using Guid(701ba2df516391c4ab98012d036efe00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ced5ce2b76823459fbf6da91af28b5') in 0.540796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/PolygonOffice/Textures/PolygonOffice_Texture_04_B.png
+  artifactKey: Guid(a621f7022ed5c1c4282ac5448a02eb11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonOffice/Textures/PolygonOffice_Texture_04_B.png using Guid(a621f7022ed5c1c4282ac5448a02eb11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1aaca733fe5a1bfb71a1d030704204d') in 0.133376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PolygonOffice/Textures/PolygonOffice_Texture_Sceen_01.png
+  artifactKey: Guid(11dd85058ca3acc4daf542ec90e8e7fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonOffice/Textures/PolygonOffice_Texture_Sceen_01.png using Guid(11dd85058ca3acc4daf542ec90e8e7fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a43d8f5c75b4dfe240a67d3b8833110d') in 0.089564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/PolygonOffice/Textures/PolygonOffice_Texture_02_C.png
+  artifactKey: Guid(f94943085a1811248a5aa16870241faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonOffice/Textures/PolygonOffice_Texture_02_C.png using Guid(f94943085a1811248a5aa16870241faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d78a4c7192af8535ae37d01b0356e0') in 0.207188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/PolygonOffice/Textures/PolygonOffice_Texture_Sceen_03.png
+  artifactKey: Guid(f01e6f8d0a1de17499e1f961823b7931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonOffice/Textures/PolygonOffice_Texture_Sceen_03.png using Guid(f01e6f8d0a1de17499e1f961823b7931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfed883b08656712f21a14ddbdc8c39a') in 0.193994 seconds 
