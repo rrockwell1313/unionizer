@@ -12,3 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e50f65da6dabd94f9141e125ed69e7d, type: 3}
   m_Name: SalesmanRep
   m_EditorClassIdentifier: 
+  reputation: 2
