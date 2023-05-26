@@ -30,6 +30,11 @@ public class ItemRecipient : MonoBehaviour
             CheckQuest();
     }
 
+    public void GiveItem()
+    {
+        quest.CompleteQuest();
+    }
+
     // This is either called when the player opens the scene, unless quest is meant to be checked when they leave
     // if so, this needs to be assigned to button when player leaves
     public void CheckQuest()

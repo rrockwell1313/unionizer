@@ -123,6 +123,54 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &161101956
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 161101958}
+  - component: {fileID: 161101957}
+  m_Layer: 0
+  m_Name: QuestChecker - memo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &161101957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 161101956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f222aca4f1358b144a2fa18a7773f9a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemToReceive: {fileID: 11400000, guid: 35172e3024f1c1144ad8f03c4bdf4cef, type: 2}
+  quest: {fileID: 11400000, guid: 38a335880666e7b49ac66ab9cadf73d5, type: 2}
+  inventory: {fileID: 11400000, guid: 1369575681e595a4cb2c12ef661e10b0, type: 2}
+  log: {fileID: 11400000, guid: fa8c8fde523e7994db09b5832d388d01, type: 2}
+--- !u!4 &161101958
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 161101956}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.624553, y: 1.1003785, z: -3.9533143}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &702141634
 GameObject:
   m_ObjectHideFlags: 0
@@ -206,6 +254,54 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1596186413
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1596186415}
+  - component: {fileID: 1596186414}
+  m_Layer: 0
+  m_Name: AssignQuest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1596186414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596186413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d5ef63851eea2459d8d44b2c90a7e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  log: {fileID: 11400000, guid: fa8c8fde523e7994db09b5832d388d01, type: 2}
+  quest: {fileID: 11400000, guid: d9a6ded44702d9d48aa49b2e10ba7a7a, type: 2}
+  item: {fileID: 11400000, guid: a3217fb4c8716f44890228c053497187, type: 2}
+  inventory: {fileID: 11400000, guid: 1369575681e595a4cb2c12ef661e10b0, type: 2}
+--- !u!4 &1596186415
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596186413}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.624553, y: 1.1003785, z: -3.9533143}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &5038417779675967175
 PrefabInstance:
