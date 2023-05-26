@@ -7,9 +7,8 @@ public enum Reputation { ANGRY, IRRITATED, NEUTRAL, HAPPY, PLEASED }
 [CreateAssetMenu(fileName = "New Reputation", menuName = "Reputation Counter")]
 public class ReputationCounter : ScriptableObject
 {
-    Reputation reputation;
     [SerializeField]
-    Reputation startingReputation;
+    Reputation reputation;
 
     public Reputation GetReputation() => reputation;
 
@@ -21,10 +20,5 @@ public class ReputationCounter : ScriptableObject
     public void Irritate()
     {
         reputation--;
-    }
-
-    public void Reset()
-    {
-        reputation = startingReputation;
     }
 }

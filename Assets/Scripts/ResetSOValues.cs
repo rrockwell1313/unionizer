@@ -13,7 +13,7 @@ public class ResetSOValues : MonoBehaviour
     {
         foreach(ReputationCounter rep in reputations)
         {
-            rep.Reset();
+            //rep.Reset();
         }
 
         petition.Reset();

@@ -6,7 +6,6 @@ public class ItemRecipient : MonoBehaviour
 {
     public KeyItem itemToReceive;
     public Quest quest;
-    public ReputationCounter rep;
     public Inventory inventory;
     public QuestLog log;
     // Start is called before the first frame update
@@ -14,12 +13,21 @@ public class ItemRecipient : MonoBehaviour
     {
         if (!quest.checkWhenLeave)
             CheckQuest();
+
+        CheckLeavingRoom();
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    public void CheckLeavingRoom()
+    {
+        Debug.Log("Checking as player is leaving");
+        if (quest.checkWhenLeave)
+            CheckQuest();
     }
 
     // This is either called when the player opens the scene, unless quest is meant to be checked when they leave
@@ -39,7 +47,7 @@ public class ItemRecipient : MonoBehaviour
                 // This should only be called when a player is leaving the office without attempting to give item
                 if (quest.checkWhenLeave)
                 {
-                    rep.Irritate();
+                    quest.repCounter.Irritate();
                     Debug.Log("They did not give the item, I'm mad");
                 }
             }
@@ -50,7 +58,7 @@ public class ItemRecipient : MonoBehaviour
                 if (!quest.checkWhenLeave)
                 {
                     Debug.Log("They don't have my item and I'm mad");
-                    rep.Irritate();
+                    quest.repCounter.Irritate();
                 }
             }
         }

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e30c27310f5bc348bddb44b1b43711f, type: 3}
+  m_Name: GetCoiffee
+  m_EditorClassIdentifier: 
+  recipient: HR
+  patron: 
+  Description: '*HR* is a total addict, and is in need of some coffee'
+  checkWhenLeave: 0
+  item: {fileID: 11400000, guid: 6cdd1d745c13ee54984e4ecc69f72348, type: 2}
+  repCounter: {fileID: 11400000, guid: 623dbf0ed1939c449aa6fd1212d0c220, type: 2}
+  negRepCounter: {fileID: 0}

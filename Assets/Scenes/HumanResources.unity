@@ -207,6 +207,54 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &701336540
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 701336542}
+  - component: {fileID: 701336541}
+  m_Layer: 0
+  m_Name: QuestChecker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &701336541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701336540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f222aca4f1358b144a2fa18a7773f9a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemToReceive: {fileID: 11400000, guid: 6cdd1d745c13ee54984e4ecc69f72348, type: 2}
+  quest: {fileID: 11400000, guid: b95194094ad1a6941b9b2d75e21d1d08, type: 2}
+  inventory: {fileID: 11400000, guid: 1369575681e595a4cb2c12ef661e10b0, type: 2}
+  log: {fileID: 11400000, guid: fa8c8fde523e7994db09b5832d388d01, type: 2}
+--- !u!4 &701336542
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701336540}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.8762197, y: -1.0039928, z: -2.989906}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &739182385
 PrefabInstance:
   m_ObjectHideFlags: 0
