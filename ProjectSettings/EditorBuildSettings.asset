@@ -4,5 +4,35 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MyDevOffice.unity
+    guid: d0839b18e2218764e84d1b58ad3ef806
+  - enabled: 1
+    path: Assets/Scenes/BossOffice.unity
+    guid: 9b4e43cadf08d854f96b49f4735ce3df
+  - enabled: 1
+    path: Assets/Scenes/Accountant.unity
+    guid: 111446078ccb4454e971954d44f7a82e
+  - enabled: 1
+    path: Assets/Scenes/CustomerService.unity
+    guid: 39de0c586b730444c92dc4cc931c1b3f
+  - enabled: 1
+    path: Assets/Scenes/DataAnalyst.unity
+    guid: 2378eb65e07e19048969966cf3c903de
+  - enabled: 1
+    path: Assets/Scenes/HumanResources.unity
+    guid: 9f2bc30f173e04a43abf9702841a1609
+  - enabled: 1
+    path: Assets/Scenes/Kitchen.unity
+    guid: f7c6d8b7db6ed45409231a4aa99cdcf9
+  - enabled: 1
+    path: Assets/Scenes/Sales.unity
+    guid: e0d5eb6d2c6660541b5cd9b0e2a80016
+  - enabled: 1
+    path: Assets/Scenes/Secretary.unity
+    guid: b4492491d2e90d2438d5c6bae7d67b9a
+  - enabled: 1
+    path: Assets/Scenes/Security.unity
+    guid: e3b25b9e3242bb34cb37cbef36d47130
   m_configObjects: {}

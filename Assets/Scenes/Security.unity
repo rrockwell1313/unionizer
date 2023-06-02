@@ -338,6 +338,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4977201941160134532, guid: 4d490202c1e67f244aa035b58b9c2be4, type: 3}
+      propertyPath: currentRoom
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4977201942543350915, guid: 4d490202c1e67f244aa035b58b9c2be4, type: 3}
       propertyPath: m_Name
       value: Canvas
@@ -352,7 +356,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4977201942543350943, guid: 4d490202c1e67f244aa035b58b9c2be4, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4977201942543350943, guid: 4d490202c1e67f244aa035b58b9c2be4, type: 3}
       propertyPath: m_AnchorMax.x
@@ -494,7 +498,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2061620689
 GameObject:
