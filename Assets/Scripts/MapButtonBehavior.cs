@@ -36,7 +36,8 @@ public class MapButtonBehavior : MonoBehaviour
                 connectedRooms.Add(con.GetConnectedRoom(currentRoom));
             }
         }
-
+        foreach (Room r in connectedRooms)
+            Debug.Log(r);
         foreach (ReputationDisplay d in displays)
         {
             d.button.image.color = reputationColors[(int)d.counter.GetReputation()];
@@ -90,7 +91,7 @@ public class MapButtonBehavior : MonoBehaviour
             if (room1 == room)
                 return room2;
             else if (room2 == room)
-                return room2;
+                return room1;
             else
             {
                 Debug.LogError("YOU FUCKED UP!!! YOU TRIED TO GET THE AJOINING ROOM TO A ROOM THAT ISN'T CONNECTED");
