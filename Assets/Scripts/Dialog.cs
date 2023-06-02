@@ -6,7 +6,7 @@ public class Dialog : MonoBehaviour
 {
     public ReputationCounter counter;
     [TextArea]
-    public string[] preQuest;
+    public string preQuest;
     [TextArea]
     public string notIrritated;
     [TextArea]
@@ -24,4 +24,6 @@ public class Dialog : MonoBehaviour
     {
         
     }
+
+    
 }

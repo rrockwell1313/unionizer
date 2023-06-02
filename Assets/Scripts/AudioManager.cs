@@ -12,8 +12,8 @@ public class AudioManager : MonoBehaviour
 
     private AudioSource audioSource;
 
-    public TMPro.TextMeshProUGUI nowPlayingText;
-    public TMPro.TextMeshProUGUI musicTimerText;
+    public TextMeshProUGUI nowPlayingText;
+    public TextMeshProUGUI musicTimerText;
 
 
     // Start is called before the first frame update
