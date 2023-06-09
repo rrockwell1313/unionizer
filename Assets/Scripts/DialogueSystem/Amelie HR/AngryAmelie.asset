@@ -12,6 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8f5d8bead70ec44bb5c1facf540064, type: 3}
   m_Name: AngryAmelie
   m_EditorClassIdentifier: 
-  characterName: 
-  dialogueText: 
+  characterName: Amelie
+  dialogueText: '"gently swinging her legs, but with a stern face Oh dear, I had
+    faith in you. I needed that coffee to keep my spirits high. But now, my cup is
+    empty just like my patience. There''ll be no signature for your petition from
+    me. I must kindly ask you to leave my office. My door is always open, but maybe
+    not for you anymore."'
   nextDialogue: {fileID: 0}

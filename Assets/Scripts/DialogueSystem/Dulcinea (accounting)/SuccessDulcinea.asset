@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8f5d8bead70ec44bb5c1facf540064, type: 3}
   m_Name: SuccessDulcinea
   m_EditorClassIdentifier: 
-  characterName: 
-  dialogueText: 
+  characterName: Dulcinea
+  dialogueText: " \"eyes widen Oh, sweet sugary angels! You\u2019ve saved my life.
+    You're a hero! Hand me a pen! No, wait! A quill! This moment needs DRAMA. Okay,
+    fine, a pen will do. signs the petition with a flourish Thanks! If this union
+    thing doesn\u2019t work out, you have a future in donut delivery!\""
   nextDialogue: {fileID: 0}

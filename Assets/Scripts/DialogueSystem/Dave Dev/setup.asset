@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8f5d8bead70ec44bb5c1facf540064, type: 3}
   m_Name: setup
   m_EditorClassIdentifier: 
-  characterName: 
-  dialogueText: 
-  nextDialogue: {fileID: 0}
+  characterName: Dave
+  dialogueText: sitting at his desk, munching on snacks and watching a show on his
+    second monitor while coding. He looks over to you as you approach
+  nextDialogue: {fileID: 11400000, guid: c0f15f47a2320074ba6d013922e56344, type: 2}

@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8f5d8bead70ec44bb5c1facf540064, type: 3}
   m_Name: IrrittedGiacomo
   m_EditorClassIdentifier: 
-  characterName: 
-  dialogueText: 
+  characterName: Giacomo
+  dialogueText: '"Mamma mia! You have not delivered my love letter to the enchanting
+    Priscilla? My heart, it weeps! Please, I beg you, be my Cupid and deliver my
+    affection to her! Giacomo will not rest until his love knows no bounds!"'
   nextDialogue: {fileID: 0}

@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8f5d8bead70ec44bb5c1facf540064, type: 3}
   m_Name: Greet1chance
   m_EditorClassIdentifier: 
-  characterName: 
-  dialogueText: 
-  nextDialogue: {fileID: 0}
+  characterName: Chance
+  dialogueText: "\"speaking energetically on the phone Absolutely, sir! That deal
+    is a game changer! hangs up, becomes monotonous Oh, you\u2019re here with my
+    pizza? No? Thai food? Oh, you work here. You're...maintenance? No, wait, IT something.
+    What do you want?\""
+  nextDialogue: {fileID: 11400000, guid: 147bd8479a304a249aee82abd3127a3f, type: 2}

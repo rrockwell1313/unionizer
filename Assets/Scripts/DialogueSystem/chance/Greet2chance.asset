@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8f5d8bead70ec44bb5c1facf540064, type: 3}
   m_Name: Greet2chance
   m_EditorClassIdentifier: 
-  characterName: 
-  dialogueText: 
-  nextDialogue: {fileID: 0}
+  characterName: Chance
+  dialogueText: "\"Unionize? Like, with tools and stuff? Oh, you mean like a... group
+    thing. Gotcha. That sounds fine, I guess. But, uhh, if we do that, some of my,
+    umm, paperwork might not look so good. I don't even like paperwork. It's like,
+    words and numbers. Why can\u2019t they stay in their own lanes, you know?\""
+  nextDialogue: {fileID: 11400000, guid: fd93bdca62d6e3e4cafbd5287d400848, type: 2}

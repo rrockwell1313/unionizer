@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8f5d8bead70ec44bb5c1facf540064, type: 3}
   m_Name: SuccessGiacomo
   m_EditorClassIdentifier: 
-  characterName: 
-  dialogueText: 
+  characterName: Giacomo
+  dialogueText: "\"Ah, I can feel the shift in the wind! Priscilla must have received
+    my letter! clasps hands together Grazie, my friend. As promised, Giacomo will
+    sign your petition with the fervor of a thousand poets. signs dramatically Viva
+    la union! And viva l\u2019amore!\""
   nextDialogue: {fileID: 0}

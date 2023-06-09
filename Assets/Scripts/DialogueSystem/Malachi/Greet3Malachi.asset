@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8f5d8bead70ec44bb5c1facf540064, type: 3}
   m_Name: Greet3Malachi
   m_EditorClassIdentifier: 
-  characterName: 
-  dialogueText: 
+  characterName: Malachi
+  dialogueText: "\"Priscilla, the secretary, she has a collection of movies for the
+    boss. I can\u2019t afford those on my salary, but I love movies. Can you ask
+    her to recommend one for me to watch? Something to sweep me away to a different
+    world. If you can get me a movie from her, you'll have my signature.\""
   nextDialogue: {fileID: 0}

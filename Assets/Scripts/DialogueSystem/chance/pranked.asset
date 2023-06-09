@@ -12,6 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8f5d8bead70ec44bb5c1facf540064, type: 3}
   m_Name: pranked
   m_EditorClassIdentifier: 
-  characterName: 
-  dialogueText: 
+  characterName: Chance
+  dialogueText: "\"monotone Is this... someone's trash? glances at the bag Like,
+    seriously? You came all the way over here to hand me a bag of... I don't even
+    know what\u2019s in there, and I don't care. tosses it in the trash bin You do
+    know we have trash cans all around the office, right? You could have tossed it
+    yourself. What\u2019s next, do you need me to tie your shoes? Anyway, if that\u2019s
+    all, I got phone calls to make and not make sense of.\""
   nextDialogue: {fileID: 0}

@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8f5d8bead70ec44bb5c1facf540064, type: 3}
   m_Name: IrritateMalachi
   m_EditorClassIdentifier: 
-  characterName: 
-  dialogueText: 
+  characterName: Malachi
+  dialogueText: "\"looks dejected Still no movie? It\u2019s like waiting for the
+    happy ending that never comes. Please, help me escape, if only for a couple of
+    hours. Then, I\u2019ll stand by you in this union endeavor.\""
   nextDialogue: {fileID: 0}

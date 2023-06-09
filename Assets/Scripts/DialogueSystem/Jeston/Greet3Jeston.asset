@@ -12,6 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8f5d8bead70ec44bb5c1facf540064, type: 3}
   m_Name: Greet3Jeston
   m_EditorClassIdentifier: 
-  characterName: 
-  dialogueText: 
+  characterName: Jeston
+  dialogueText: " \"Alright, here\u2019s what I need from you. hands over a rolled-up
+    paper sack I need you to deliver this little package to Chance, the Sales Rep.
+    Don\u2019t you dare peek inside, that\u2019s part of the prank! I swear, it's
+    harmless. Just tell him it\u2019s from a 'secret admirer'. winks If you can pull
+    this off without cracking up, I\u2019ll sign your petition!\""
   nextDialogue: {fileID: 0}

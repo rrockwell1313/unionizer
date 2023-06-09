@@ -12,6 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8f5d8bead70ec44bb5c1facf540064, type: 3}
   m_Name: Greet3Priscilla
   m_EditorClassIdentifier: 
-  characterName: 
-  dialogueText: 
+  characterName: Priscilla
+  dialogueText: "\"Okay, here\u2019s the deal. There's this memo I have to deliver
+    to Giacomo, the Data Analyst. He\u2019s...persistent. A little too much, if you
+    catch my drift. I could use a break from his never-ending 'romantic' overtures.
+    If you could take this memo to him and save me the trouble, I\u2019ll sign your
+    petition. Fair?\""
   nextDialogue: {fileID: 0}

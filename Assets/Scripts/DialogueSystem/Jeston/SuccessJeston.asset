@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8f5d8bead70ec44bb5c1facf540064, type: 3}
   m_Name: SuccessJeston
   m_EditorClassIdentifier: 
-  characterName: 
-  dialogueText: 
+  characterName: Jeston
+  dialogueText: "\"slaps knee Oh, man! I wish I could've seen his face! This place
+    needs some fun, and you just helped deliver it. You\u2019re an honorary member
+    of the Jeston Prank Squad! signs the petition with a flourish Let\u2019s shake
+    this place up with that union thing! High five, comrade in pranks!\""
   nextDialogue: {fileID: 0}

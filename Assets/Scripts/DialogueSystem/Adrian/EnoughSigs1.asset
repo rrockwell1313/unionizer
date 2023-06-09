@@ -16,4 +16,4 @@ MonoBehaviour:
   dialogueText: "Adrian: \"What do you mean we lost the contract? You tell those
     jackals if they think they can push Adrian around, they\u2019ve got another thing
     coming! I've eaten companies bigger than them for breakfast! slams phone down"
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: f1566a5a6b010b84598843a47ea6fa57, type: 2}

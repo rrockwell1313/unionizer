@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8f5d8bead70ec44bb5c1facf540064, type: 3}
   m_Name: greeting
   m_EditorClassIdentifier: 
-  characterName: 
-  dialogueText: 
-  nextDialogue: {fileID: 0}
+  characterName: Dave
+  dialogueText: "Hey there, welcome to the dev team! I'm Dave. You picked quite the
+    day to start; it\u2019s the company's anniversary and everyone's on edge because
+    of the new release we pushed this morning. takes a sip of his drink"
+  nextDialogue: {fileID: 11400000, guid: b9b35747241551042b965efc0db655b9, type: 2}

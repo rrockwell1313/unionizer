@@ -17,4 +17,4 @@ MonoBehaviour:
     new developer, aren\u2019t you? I\u2019ve heard about you. I\u2019m Priscilla.
     I'm sorry, but if you need something from me, you\u2019d better be quick. My
     to-do list is longer than War and Peace right now.\""
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: 12b20ec517245cd4a9e0507fc043ceb9, type: 2}

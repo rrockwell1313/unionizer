@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8f5d8bead70ec44bb5c1facf540064, type: 3}
   m_Name: successchance
   m_EditorClassIdentifier: 
-  characterName: 
-  dialogueText: 
+  characterName: Chance
+  dialogueText: "\"Whoa, you actually did it! The papers are gone! You\u2019re like,
+    a paper whisperer. Thanks for saving me from, you know, words and numbers attacking
+    me. signs the petition There you go, buddy. Now, if you find my Thai food, let
+    me know, okay?\""
   nextDialogue: {fileID: 0}

@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8f5d8bead70ec44bb5c1facf540064, type: 3}
   m_Name: allsigs3
   m_EditorClassIdentifier: 
-  characterName: 
-  dialogueText: 
-  nextDialogue: {fileID: 0}
+  characterName: Adrian
+  dialogueText: "sighs deeply, takes the cigar out of his mouth Every...single...one
+    of them, huh? You know, I was on the phone with my replacement. The company\u2019s
+    being sold, and I'm out. Seeing this... gestures to the petition...I guess it
+    was time. It\u2019s over for me here."
+  nextDialogue: {fileID: 11400000, guid: 3b0ad7af7e9c9514b9c04358616d8a3d, type: 2}

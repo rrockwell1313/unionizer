@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8f5d8bead70ec44bb5c1facf540064, type: 3}
   m_Name: greet3chance
   m_EditorClassIdentifier: 
-  characterName: 
-  dialogueText: 
+  characterName: Chance
+  dialogueText: "\"How about this, since you\u2019re good with, umm, computery things,
+    can you get someone to take over my sales paperwork? Maybe that fidgety accountant
+    lady? Dulcinea, yeah. If she could take this off my hands, I\u2019ll sign your...
+    whatever it is.\""
   nextDialogue: {fileID: 0}

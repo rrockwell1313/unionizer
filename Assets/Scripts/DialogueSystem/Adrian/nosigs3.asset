@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: nosigs3
   m_EditorClassIdentifier: 
   characterName: 
-  dialogueText: 
-  nextDialogue: {fileID: 0}
+  dialogueText: laughs boisterously Is this a joke? You really think THIS is enough
+    to make me change anything? Sit down, let's have a talk about how the world works,
+    kid.
+  nextDialogue: {fileID: 11400000, guid: 9058a350832b58245a27681304a59162, type: 2}

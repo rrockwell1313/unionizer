@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: allsigs2
   m_EditorClassIdentifier: 
   characterName: 
-  dialogueText: 
-  nextDialogue: {fileID: 0}
+  dialogueText: "What\u2019s this? Another problem for me to deal with?"
+  nextDialogue: {fileID: 11400000, guid: 75e1c8b48d523914ea67efc5db4f0adb, type: 2}

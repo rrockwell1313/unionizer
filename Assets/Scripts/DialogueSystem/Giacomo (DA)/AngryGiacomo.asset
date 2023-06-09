@@ -12,6 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8f5d8bead70ec44bb5c1facf540064, type: 3}
   m_Name: AngryGiacomo
   m_EditorClassIdentifier: 
-  characterName: 
-  dialogueText: 
+  characterName: Giacomo
+  dialogueText: "\"in a heavy Italian accent, visibly agitated Madonna mia! You are
+    toying with Giacomo\u2019s heart! First, you gave me hope, and now you keep breaking
+    it! Priscilla deserves my letter of amore! Forget about Giacomo\u2019s signature!
+    Since you don\u2019t respect the art of love, you must leave Giacomo\u2019s sanctuary!
+    Arrivederci forever!\""
   nextDialogue: {fileID: 0}

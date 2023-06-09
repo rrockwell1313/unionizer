@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8f5d8bead70ec44bb5c1facf540064, type: 3}
   m_Name: IrrPriscilla
   m_EditorClassIdentifier: 
-  characterName: 
-  dialogueText: 
+  characterName: Priscilla
+  dialogueText: "\"sighs heavily You still haven\u2019t given Giacomo the memo? Seriously?
+    My sanity is hanging by a thread here. Look, I agreed to sign your thing, but
+    only if you get that creep off my back for a day. Chop chop!\""
   nextDialogue: {fileID: 0}

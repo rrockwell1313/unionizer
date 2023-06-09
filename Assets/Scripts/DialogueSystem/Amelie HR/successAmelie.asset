@@ -13,5 +13,8 @@ MonoBehaviour:
   m_Name: successAmelie
   m_EditorClassIdentifier: 
   characterName: Amelie
-  dialogueText: 
+  dialogueText: "\"claps hands joyfully Oh, thank heavens! The sacred coffee pot!
+    You, my dear, are a life-saver. brews coffee Ah, the aroma! Now, let me just
+    take a sip... Perfect! As promised, here\u2019s my signature for the union. You\u2019re
+    doing a wonderful thing for all of us. Bless your heart!"
   nextDialogue: {fileID: 0}

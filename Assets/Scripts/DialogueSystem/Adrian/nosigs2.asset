@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8f5d8bead70ec44bb5c1facf540064, type: 3}
   m_Name: nosigs2
   m_EditorClassIdentifier: 
-  characterName: 
-  dialogueText: 
-  nextDialogue: {fileID: 0}
+  characterName: Adrian
+  dialogueText: "Great, as if my day wasn\u2019t miserable enough! What do you want?!"
+  nextDialogue: {fileID: 11400000, guid: 8f255677a0a3f574593b7a02aaed9c3f, type: 2}

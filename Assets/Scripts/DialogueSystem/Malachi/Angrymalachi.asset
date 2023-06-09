@@ -12,6 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8f5d8bead70ec44bb5c1facf540064, type: 3}
   m_Name: Angrymalachi
   m_EditorClassIdentifier: 
-  characterName: 
-  dialogueText: 
+  characterName: Malachi
+  dialogueText: "\"tearful, resigned I needed that escape, and you kept it from me.
+    \u2018You either die a hero, or you live long enough to see yourself become the
+    villain.\u2019 That\u2019s from \u2018The Dark Knight\u2019. Just leave me be
+    in my melancholy cave. No autographs, no encores. And certainly no signature
+    for your petition. The show is over.\""
   nextDialogue: {fileID: 0}

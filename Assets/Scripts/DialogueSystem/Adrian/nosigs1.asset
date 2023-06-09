@@ -15,4 +15,4 @@ MonoBehaviour:
   characterName: Aidan
   dialogueText: No, no, NO! You nincompoop! These numbers are about as useful as
     a screen door on a submarine! Fix it or pack your desk! slams phone down
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: 24bba10b6e0929e43b0fa78ccd237dff, type: 2}

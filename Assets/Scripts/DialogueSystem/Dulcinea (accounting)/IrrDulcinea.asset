@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8f5d8bead70ec44bb5c1facf540064, type: 3}
   m_Name: IrrDulcinea
   m_EditorClassIdentifier: 
-  characterName: 
-  dialogueText: 
+  characterName: Dulcinea
+  dialogueText: '"taps foot impatiently Where are the donuts?! You know, round, sugary,
+    heaven in a bite? I can''t sign anything without the sugar rush to steady my
+    hand! My signature will be squiggly! We can''t have that, can we? Donuts! Now!"'
   nextDialogue: {fileID: 0}

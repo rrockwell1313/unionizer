@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8f5d8bead70ec44bb5c1facf540064, type: 3}
   m_Name: Greet1Jeston
   m_EditorClassIdentifier: 
-  characterName: 
-  dialogueText: 
-  nextDialogue: {fileID: 0}
+  characterName: Jeston
+  dialogueText: " \"startled, drops a file Whoa there, partner! You almost scared
+    the badge off me! Jeston\u2019s the name, and security\u2019s my game. chuckles
+    while pretending to pull a gun Don't worry, I ain't gonna shoot ya. You caught
+    me in the middle of some mischief. What\u2019s up?\""
+  nextDialogue: {fileID: 11400000, guid: 49aadd054306ed14eb3344d903e1e6e4, type: 2}

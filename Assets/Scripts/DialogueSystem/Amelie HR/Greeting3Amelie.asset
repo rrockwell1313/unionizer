@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8f5d8bead70ec44bb5c1facf540064, type: 3}
   m_Name: Greeting3Amelie
   m_EditorClassIdentifier: 
-  characterName: 
-  dialogueText: 
+  characterName: Amelie
+  dialogueText: "\"I\u2019d love to sign your petition, but first, could you help
+    me find the coffee pot? I heard that silly security team was playing keep-away
+    with it earlier. I would be ever so grateful if you could retrieve it so I can
+    make a fresh pot of coffee. My signature awaits!\""
   nextDialogue: {fileID: 0}

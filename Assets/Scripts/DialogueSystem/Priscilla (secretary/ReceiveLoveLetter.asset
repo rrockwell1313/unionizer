@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8f5d8bead70ec44bb5c1facf540064, type: 3}
   m_Name: ReceiveLoveLetter
   m_EditorClassIdentifier: 
-  characterName: 
-  dialogueText: 
+  characterName: Priscilla
+  dialogueText: "\"rolls eyes Oh great, another love letter from Giacomo? reads it,
+    cringes I don't know how much more of this I can take. But, since you did me
+    that favor earlier by delivering the memo, it\u2019s cool. I sort of\u2026.expected
+    it. she throws it away."
   nextDialogue: {fileID: 0}

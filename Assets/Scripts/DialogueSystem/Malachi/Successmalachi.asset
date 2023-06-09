@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8f5d8bead70ec44bb5c1facf540064, type: 3}
   m_Name: Successmalachi
   m_EditorClassIdentifier: 
-  characterName: 
-  dialogueText: 
+  characterName: Malachi
+  dialogueText: "\"eyes light up You got it! A movie! Oh, this is just the slice
+    of heaven I needed. takes a deep breath I can feel the weight lifting already.
+    Thank you. signs the petition Through thick and thin, my fellow protagonist,
+    we\u2019ll see how our story unfolds.\""
   nextDialogue: {fileID: 0}

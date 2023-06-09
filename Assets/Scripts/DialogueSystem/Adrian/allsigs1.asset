@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8f5d8bead70ec44bb5c1facf540064, type: 3}
   m_Name: allsigs1
   m_EditorClassIdentifier: 
-  characterName: 
-  dialogueText: 
-  nextDialogue: {fileID: 0}
+  characterName: Adrian
+  dialogueText: "Adrian: I don\u2019t give a rat\u2019s behind about their offer!
+    You tell them Adrian said they can stick it where the sun don\u2019t shine! slams
+    phone down"
+  nextDialogue: {fileID: 11400000, guid: 9b827da7f6d48424183f2573c2eb87b2, type: 2}

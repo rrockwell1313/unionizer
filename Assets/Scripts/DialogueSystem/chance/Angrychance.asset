@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8f5d8bead70ec44bb5c1facf540064, type: 3}
   m_Name: Angrychance
   m_EditorClassIdentifier: 
-  characterName: 
-  dialogueText: 
+  characterName: Chance
+  dialogueText: "\"monotone, rolling his eyes Well, I guess the paperwork wizard
+    lost his magic. Honestly, I had low expectations, but you managed to get under
+    that bar. You can forget about my signature. Don't come back here without a pizza
+    or Thai food, or better yet, don\u2019t come back at all.\""
   nextDialogue: {fileID: 0}

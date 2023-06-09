@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8f5d8bead70ec44bb5c1facf540064, type: 3}
   m_Name: IrritateAmelie
   m_EditorClassIdentifier: 
-  characterName: 
-  dialogueText: 
+  characterName: Amelie
+  dialogueText: '"looking worried Oh dear, still no coffee pot? My insides are doing
+    a little dance. giggles nervously But I have faith in you! You look like someone
+    who can solve a coffee pot mystery. Please find it soon, my dear. A cup of joe
+    and a signed petition are both brewing in spirit!"'
   nextDialogue: {fileID: 0}

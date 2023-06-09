@@ -17,4 +17,4 @@ MonoBehaviour:
     I\u2019m just so tired. My dreams feel as distant as the stars. But if I could
     have a piece of that dream, just for a night, maybe I could muster the energy
     to fight back.\""
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: 992949b6bdfe0584fa5acbb7225f7704, type: 2}

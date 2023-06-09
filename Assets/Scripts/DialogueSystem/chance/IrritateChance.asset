@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8f5d8bead70ec44bb5c1facf540064, type: 3}
   m_Name: IrritateChance
   m_EditorClassIdentifier: 
-  characterName: 
-  dialogueText: 
+  characterName: Chance
+  dialogueText: "\"You didn't find someone for my paperwork yet? Are you sure you\u2019re
+    not the pizza delivery person? Oh well. If you\u2019re a paperwork wizard or
+    something, just wave your magic wand and get Dulcinea to help me. Then I'll sign
+    your, uhh, thing.\""
   nextDialogue: {fileID: 0}

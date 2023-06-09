@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8f5d8bead70ec44bb5c1facf540064, type: 3}
   m_Name: Greet2Priscilla
   m_EditorClassIdentifier: 
-  characterName: 
-  dialogueText: 
-  nextDialogue: {fileID: 0}
+  characterName: Priscilla
+  dialogueText: "\"Unionize? Honestly, I could use any break I can get. But I've
+    got enough on my plate, and the boss watches my every move. I can\u2019t risk
+    stirring the pot right now unless\u2026 well, unless I can offload something.\""
+  nextDialogue: {fileID: 11400000, guid: e9b6b92f9429ecc41806ab0583be59f0, type: 2}

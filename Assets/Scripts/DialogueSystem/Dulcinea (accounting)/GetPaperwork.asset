@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8f5d8bead70ec44bb5c1facf540064, type: 3}
   m_Name: GetPaperwork
   m_EditorClassIdentifier: 
-  characterName: 
-  dialogueText: 
+  characterName: Dulcinea
+  dialogueText: '"while munching on a donut Sales paperwork? I''ve got a mountain
+    of accounting to do! But... maybe if I help him out this time, he''ll owe me
+    one later. Plus, I could use a break from these numbers. takes the paperwork
+    Tell him he owes me a dozen donuts!"'
   nextDialogue: {fileID: 0}

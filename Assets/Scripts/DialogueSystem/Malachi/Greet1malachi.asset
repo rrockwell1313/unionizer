@@ -12,6 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8f5d8bead70ec44bb5c1facf540064, type: 3}
   m_Name: Greet1malachi
   m_EditorClassIdentifier: 
-  characterName: 
-  dialogueText: 
-  nextDialogue: {fileID: 0}
+  characterName: Malachi
+  dialogueText: '"on the phone, visibly distressed as a customer is screaming at
+    him Sir, I understand your frustration, but... gets interrupted, tear in his
+    eye ''Frankly, my dear, I don''t give a damn.'' hangs up, sniffs Oh, hi there.
+    That was a line from ''Gone with the Wind''. Helps me cope with, well, gestures
+    to phone. I''m Malachi. I do customer service here. Sometimes I wish I was in
+    a Bollywood film, dancing and singing my heart out instead of dealing with this.
+    How can I assist you today?"'
+  nextDialogue: {fileID: 11400000, guid: ccec4a3a64bd7c24b8d7509f18420a42, type: 2}

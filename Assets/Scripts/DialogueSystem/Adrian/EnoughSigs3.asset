@@ -12,6 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8f5d8bead70ec44bb5c1facf540064, type: 3}
   m_Name: EnoughSigs3
   m_EditorClassIdentifier: 
-  characterName: 
-  dialogueText: 
+  characterName: Adrian
+  dialogueText: 'Adrian: Petition? Unionize? scans through the signatures You little
+    weasel, gathering everyone against me like this! Alright, alright. I can see
+    the pitchforks and torches! I''ll make some changes around here! But don''t think
+    this makes us friends! Now get out of my office before I decide to chew you out
+    too!'
   nextDialogue: {fileID: 0}

@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8f5d8bead70ec44bb5c1facf540064, type: 3}
   m_Name: EnoughSigs2
   m_EditorClassIdentifier: 
-  characterName: 
-  dialogueText: 
-  nextDialogue: {fileID: 0}
+  characterName: Adrian
+  dialogueText: What do YOU want? Can't you see I'm in the middle of a crisis here?!
+  nextDialogue: {fileID: 11400000, guid: b754b40924e46a449af5ebe2a9ce3bd9, type: 2}

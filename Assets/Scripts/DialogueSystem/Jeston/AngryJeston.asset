@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8f5d8bead70ec44bb5c1facf540064, type: 3}
   m_Name: AngryJeston
   m_EditorClassIdentifier: 
-  characterName: 
-  dialogueText: 
+  characterName: Jeston
+  dialogueText: "\"pretends to pull a gun, visibly annoyed Alright partner, you\u2019ve
+    had your fun. But Jeston ain\u2019t got time for dilly-dallying! You had a mission,
+    and you failed. My signature ain't happening. Now get on outta here before I
+    have to escort you out myself! You\u2019ve lost your Prank Squad privileges!\""
   nextDialogue: {fileID: 0}

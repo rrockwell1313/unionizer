@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8f5d8bead70ec44bb5c1facf540064, type: 3}
   m_Name: Greeting1Amelie
   m_EditorClassIdentifier: 
-  characterName: 
-  dialogueText: 
-  nextDialogue: {fileID: 0}
+  characterName: Amelie
+  dialogueText: "\"smiling warmly Oh, hello dear! You must be the new developer.
+    I'm Amelie, I handle HR here. I just adore making sure everyone feels comfortable
+    and valued. Is there something on your mind? Giacomo or the security team acting
+    up again? Just spill the beans \u2013 no pun intended!\""
+  nextDialogue: {fileID: 11400000, guid: e0bad2b43f4542242afdb60db86c58d4, type: 2}

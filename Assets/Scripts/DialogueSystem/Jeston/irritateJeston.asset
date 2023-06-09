@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8f5d8bead70ec44bb5c1facf540064, type: 3}
   m_Name: irritateJeston
   m_EditorClassIdentifier: 
-  characterName: 
-  dialogueText: 
+  characterName: Jeston
+  dialogueText: "\"You haven\u2019t given Chance the package? What are ya waitin\u2019
+    for, Christmas? Go on! Deliver the goods, and let\u2019s make this a day for
+    the history books! The longer you wait, the more my prankin\u2019 fingers start
+    to itch!\""
   nextDialogue: {fileID: 0}

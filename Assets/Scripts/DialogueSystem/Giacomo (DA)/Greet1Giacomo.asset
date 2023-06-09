@@ -12,6 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8f5d8bead70ec44bb5c1facf540064, type: 3}
   m_Name: Greet1Giacomo
   m_EditorClassIdentifier: 
-  characterName: 
-  dialogueText: 
-  nextDialogue: {fileID: 0}
+  characterName: Giacomo
+  dialogueText: ' "leans back in chair, legs crossed Ah, il nuovo programmatore!
+    Welcome, my friend. I am Giacomo, the maestro of data! They say numbers don''t
+    lie, but let me tell you, neither does love. Ah, the beautiful Priscilla. She
+    is like a fine wine. sighs dreamily What brings you to my abode of wisdom and
+    romance?"'
+  nextDialogue: {fileID: 11400000, guid: a8fa5558fd4b01a44afb281ac744a675, type: 2}

@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8f5d8bead70ec44bb5c1facf540064, type: 3}
   m_Name: AngryDulcinea
   m_EditorClassIdentifier: 
-  characterName: 
-  dialogueText: 
+  characterName: Dulcinea
+  dialogueText: "\"fidgeting frantically Are you kidding me? AGAIN? No donuts? This
+    is like a never-ending loop of disappointment! I need my sugar fix and you\u2019ve
+    let me down one too many times! Don't even think about that petition! My signature
+    is as absent as those donuts! Shoo, shoo! Donut betrayer!\""
   nextDialogue: {fileID: 0}

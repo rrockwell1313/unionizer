@@ -16,4 +16,4 @@ MonoBehaviour:
   dialogueText: '"Unionize, eh? That sounds like a rebellious venture. Giacomo loves
     a good rebellion! Ah, but Priscilla... Her smile could launch a thousand ships.
     I would be more inspired to join your cause if only my heart''s desire were fulfilled."'
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: 255d3b648424a904581b60b6211c48a4, type: 2}

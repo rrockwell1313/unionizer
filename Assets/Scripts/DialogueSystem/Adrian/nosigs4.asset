@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8f5d8bead70ec44bb5c1facf540064, type: 3}
   m_Name: nosigs4
   m_EditorClassIdentifier: 
-  characterName: 
-  dialogueText: 
+  characterName: Adrian
+  dialogueText: "Adrian: Ah, forget it. You\u2019re fired! Just kidding! But seriously,
+    get out of my sight before I really fire you!"
   nextDialogue: {fileID: 0}
