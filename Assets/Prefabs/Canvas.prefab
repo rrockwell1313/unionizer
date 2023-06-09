@@ -812,6 +812,94 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 2294120664270179761}
+    - target: {fileID: 2452267041887346731, guid: 8fb274ba2346d7d40a640a098dba29ab, type: 3}
+      propertyPath: m_text
+      value: Dulcinea
+      objectReference: {fileID: 0}
+    - target: {fileID: 2452267041887346731, guid: 8fb274ba2346d7d40a640a098dba29ab, type: 3}
+      propertyPath: m_xAdvance
+      value: 560.93024
+      objectReference: {fileID: 0}
+    - target: {fileID: 2452267041887346731, guid: 8fb274ba2346d7d40a640a098dba29ab, type: 3}
+      propertyPath: m_characterCount
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2452267041887346731, guid: 8fb274ba2346d7d40a640a098dba29ab, type: 3}
+      propertyPath: m_preferredWidth
+      value: 560.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 2452267041887346731, guid: 8fb274ba2346d7d40a640a098dba29ab, type: 3}
+      propertyPath: m_lastCharacterOfLine
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2452267041887346731, guid: 8fb274ba2346d7d40a640a098dba29ab, type: 3}
+      propertyPath: m_totalCharacterCount
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2452267041887346731, guid: 8fb274ba2346d7d40a640a098dba29ab, type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2452267041887346731, guid: 8fb274ba2346d7d40a640a098dba29ab, type: 3}
+      propertyPath: m_lineVisibleCharacterCount
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2452267041887346731, guid: 8fb274ba2346d7d40a640a098dba29ab, type: 3}
+      propertyPath: m_lastVisibleCharacterOfLine
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2452267041887346731, guid: 8fb274ba2346d7d40a640a098dba29ab, type: 3}
+      propertyPath: m_cached_TextElement.m_Unicode
+      value: 97
+      objectReference: {fileID: 0}
+    - target: {fileID: 2452267041887346731, guid: 8fb274ba2346d7d40a640a098dba29ab, type: 3}
+      propertyPath: m_InternalTextProcessingArraySize
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2452267041887346731, guid: 8fb274ba2346d7d40a640a098dba29ab, type: 3}
+      propertyPath: m_cached_TextElement.m_GlyphIndex
+      value: 68
+      objectReference: {fileID: 0}
+    - target: {fileID: 2452267041887346731, guid: 8fb274ba2346d7d40a640a098dba29ab, type: 3}
+      propertyPath: m_cached_TextElement.m_Glyph.m_Index
+      value: 68
+      objectReference: {fileID: 0}
+    - target: {fileID: 2452267041887346731, guid: 8fb274ba2346d7d40a640a098dba29ab, type: 3}
+      propertyPath: m_cached_TextElement.m_Glyph.m_GlyphRect.m_X
+      value: 669
+      objectReference: {fileID: 0}
+    - target: {fileID: 2452267041887346731, guid: 8fb274ba2346d7d40a640a098dba29ab, type: 3}
+      propertyPath: m_cached_TextElement.m_Glyph.m_GlyphRect.m_Y
+      value: 648
+      objectReference: {fileID: 0}
+    - target: {fileID: 2452267041887346731, guid: 8fb274ba2346d7d40a640a098dba29ab, type: 3}
+      propertyPath: m_cached_TextElement.m_Glyph.m_Metrics.m_Width
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 2452267041887346731, guid: 8fb274ba2346d7d40a640a098dba29ab, type: 3}
+      propertyPath: m_cached_TextElement.m_Glyph.m_Metrics.m_Height
+      value: 47
+      objectReference: {fileID: 0}
+    - target: {fileID: 2452267041887346731, guid: 8fb274ba2346d7d40a640a098dba29ab, type: 3}
+      propertyPath: m_cached_TextElement.m_Glyph.m_GlyphRect.m_Width
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 2452267041887346731, guid: 8fb274ba2346d7d40a640a098dba29ab, type: 3}
+      propertyPath: m_cached_TextElement.m_Glyph.m_GlyphRect.m_Height
+      value: 47
+      objectReference: {fileID: 0}
+    - target: {fileID: 2452267041887346731, guid: 8fb274ba2346d7d40a640a098dba29ab, type: 3}
+      propertyPath: m_cached_TextElement.m_Glyph.m_Metrics.m_HorizontalAdvance
+      value: 48
+      objectReference: {fileID: 0}
+    - target: {fileID: 2452267041887346731, guid: 8fb274ba2346d7d40a640a098dba29ab, type: 3}
+      propertyPath: m_cached_TextElement.m_Glyph.m_Metrics.m_HorizontalBearingX
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2452267041887346731, guid: 8fb274ba2346d7d40a640a098dba29ab, type: 3}
+      propertyPath: m_cached_TextElement.m_Glyph.m_Metrics.m_HorizontalBearingY
+      value: 46
+      objectReference: {fileID: 0}
     - target: {fileID: 8175987503992157560, guid: 8fb274ba2346d7d40a640a098dba29ab, type: 3}
       propertyPath: m_Name
       value: UI

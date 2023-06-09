@@ -19,4 +19,4 @@ MonoBehaviour:
   checkWhenLeave: 1
   item: {fileID: 11400000, guid: 3a5096797e715d44098a5436cd37cd10, type: 2}
   repCounter: {fileID: 11400000, guid: 17c66bf9c86af5b4c97c35f51e036ed1, type: 2}
-  negRepCounter: {fileID: 11400000, guid: 623dbf0ed1939c449aa6fd1212d0c220, type: 2}
+  negRepCounter: {fileID: 0}

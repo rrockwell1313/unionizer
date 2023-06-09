@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8f5d8bead70ec44bb5c1facf540064, type: 3}
+  m_Name: Greet2malachi
+  m_EditorClassIdentifier: 
+  characterName: Malachi
+  dialogueText: "\"A union? Maybe that could change things. Like a twist in the plot.
+    I\u2019m just so tired. My dreams feel as distant as the stars. But if I could
+    have a piece of that dream, just for a night, maybe I could muster the energy
+    to fight back.\""
+  nextDialogue: {fileID: 0}

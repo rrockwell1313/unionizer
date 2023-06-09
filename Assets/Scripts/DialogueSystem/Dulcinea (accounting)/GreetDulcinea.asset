@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8f5d8bead70ec44bb5c1facf540064, type: 3}
+  m_Name: GreetDulcinea
+  m_EditorClassIdentifier: 
+  characterName: Dulcinea
+  dialogueText: "\"Oh, hey there! You're the new dev, right? I\u2019ve heard there\u2019s
+    a code for EVERYTHING! Can you imagine? A code for donuts! giggles Oh, don\u2019t
+    mind me, I\u2019m just jonesing for something sweet. What\u2019s up?\""
+  nextDialogue: {fileID: 11400000, guid: efe6f752a64d99a4287a97c720009f2c, type: 2}
