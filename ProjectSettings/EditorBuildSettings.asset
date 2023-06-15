@@ -23,7 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HumanResources.unity
     guid: 9f2bc30f173e04a43abf9702841a1609
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Kitchen.unity
     guid: f7c6d8b7db6ed45409231a4aa99cdcf9
   - enabled: 1

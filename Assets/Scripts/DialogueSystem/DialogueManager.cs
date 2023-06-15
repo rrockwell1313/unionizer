@@ -24,7 +24,6 @@ public class DialogueManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        hasMet.value = false;
         panel.SetActive(false);
         timeAtStartOfScene = Time.time;
     }
@@ -32,7 +31,7 @@ public class DialogueManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!delayedDialogue && timeAtStartOfScene + delayDuration > Time.time)
+        if (!delayedDialogue && timeAtStartOfScene + delayDuration < Time.time)
         {
             delayedDialogue = true;
             GenerateDialogue();
@@ -74,6 +73,7 @@ public class DialogueManager : MonoBehaviour
 
         if (HasNextDialogue() && Input.anyKeyDown)
         {
+            Debug.Log("Triggering next dialogue");
             NextDialogue();
         }
     }
@@ -92,12 +92,14 @@ public class DialogueManager : MonoBehaviour
 
     public bool HasNextDialogue()
     {
-        if (currentlyDisplayedText.nextDialogue != null)
+        if (currentlyDisplayedText?.nextDialogue != null)
         {
+            Debug.Log("Has text");
             return true;
         }
         else
         {
+            Debug.Log("No Has text");
             return false;
         }
     }

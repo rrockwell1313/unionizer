@@ -15,3 +15,4 @@ MonoBehaviour:
   quests:
   - {fileID: 11400000, guid: d9a6ded44702d9d48aa49b2e10ba7a7a, type: 2}
   - {fileID: 11400000, guid: b95194094ad1a6941b9b2d75e21d1d08, type: 2}
+  - {fileID: 11400000, guid: 38a335880666e7b49ac66ab9cadf73d5, type: 2}
