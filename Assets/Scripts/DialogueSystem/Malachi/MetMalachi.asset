@@ -9,8 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f9fe146061664641a82b8f53b4929b4, type: 3}
-  m_Name: QuestLog
+  m_Script: {fileID: 11500000, guid: c79606fc16e5ff74396a8f3a6d0f227a, type: 3}
+  m_Name: MetMalachi
   m_EditorClassIdentifier: 
-  quests:
-  - {fileID: 11400000, guid: 38a335880666e7b49ac66ab9cadf73d5, type: 2}
+  value: 0
