@@ -24,6 +24,9 @@ public class DialogueManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+#if UNITY_EDITOR
+        hasMet.value = false;
+#endif
         panel.SetActive(false);
         timeAtStartOfScene = Time.time;
     }
@@ -35,6 +38,12 @@ public class DialogueManager : MonoBehaviour
         {
             delayedDialogue = true;
             GenerateDialogue();
+        }
+
+        if (HasNextDialogue() && Input.GetKeyDown(KeyCode.Space))
+        {
+            Debug.Log("Triggering next dialogue");
+            NextDialogue();
         }
     }
 
@@ -70,18 +79,16 @@ public class DialogueManager : MonoBehaviour
                 dialogueText.text = greetDialogue.characterName + ": Hey, how's it going?";
             }
         }
-
-        if (HasNextDialogue() && Input.anyKeyDown)
-        {
-            Debug.Log("Triggering next dialogue");
-            NextDialogue();
-        }
     }
 
     public void DisplayDialogue(Dialogue dialogue)
     {
         currentlyDisplayedText = dialogue;
         dialogueText.text = currentlyDisplayedText.characterName + ": " + currentlyDisplayedText.dialogueText;
+        if (HasNextDialogue())
+        {
+            dialogueText.text += "\n(Press Space to continue...)";
+        }
     }
 
     public void NextDialogue()
