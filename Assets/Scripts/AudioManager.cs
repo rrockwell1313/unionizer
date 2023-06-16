@@ -21,6 +21,9 @@ public class AudioManager : MonoBehaviour
     public GameObject playButton;
     public GameObject pauseButton;
 
+    private bool isManuallyPaused = false;
+
+
     // Awake is called when the script instance is being loaded
     private void Awake()
     {
@@ -79,7 +82,7 @@ public class AudioManager : MonoBehaviour
             string seconds = (remainingSeconds % 60).ToString("00");
             musicTimerText.text = minutes + ":" + seconds;
         }
-        else
+        else if (!isManuallyPaused)
         {
             // If the current song is finished, play the next song
             currentClipIndex = (currentClipIndex + 1) % musicClips.Length;
@@ -110,12 +113,14 @@ public class AudioManager : MonoBehaviour
             audioSource.Pause();
             playButton.SetActive(true);
             pauseButton.SetActive(false);
+            isManuallyPaused = true;
         }
         else
         {
             audioSource.Play();
             playButton.SetActive(false);
             pauseButton.SetActive(true);
+            isManuallyPaused = false;
         }
     }
 }
