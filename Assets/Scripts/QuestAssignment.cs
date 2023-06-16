@@ -11,7 +11,7 @@ public class QuestAssignment : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Assign();
     }
 
     // Update is called once per frame

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8f5d8bead70ec44bb5c1facf540064, type: 3}
+  m_Name: AngPriscilla
+  m_EditorClassIdentifier: 
+  characterName: Priscilla
+  dialogueText: "\"visibly stressed Seriously? This is the last straw! I cannot deal
+    with Giacomo and now I cannot deal with you! You\u2019ve had more than enough
+    time to deliver a simple memo! Forget about me signing any petition! Leave my
+    desk area and don\u2019t you dare come back without an appointment, which I will
+    NEVER give you!\""
+  nextDialogue: {fileID: 0}

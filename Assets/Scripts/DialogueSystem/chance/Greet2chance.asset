@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8f5d8bead70ec44bb5c1facf540064, type: 3}
+  m_Name: Greet2chance
+  m_EditorClassIdentifier: 
+  characterName: Chance
+  dialogueText: "\"Unionize? Like, with tools and stuff? Oh, you mean like a... group
+    thing. Gotcha. That sounds fine, I guess. But, uhh, if we do that, some of my,
+    umm, paperwork might not look so good. I don't even like paperwork. It's like,
+    words and numbers. Why can\u2019t they stay in their own lanes, you know?\""
+  nextDialogue: {fileID: 11400000, guid: fd93bdca62d6e3e4cafbd5287d400848, type: 2}

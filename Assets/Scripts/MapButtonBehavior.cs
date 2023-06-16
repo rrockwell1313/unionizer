@@ -31,9 +31,13 @@ public class MapButtonBehavior : MonoBehaviour
         List<Room> connectedRooms = new List<Room>();
         foreach (RoomConnection con in connections)
         {
-            if (con.RoomIsConnected(currentRoom))
+            bool roomIsConnected = con.RoomIsConnected(currentRoom);
+            Debug.Log("Room is in connection: " + roomIsConnected + ": " + con.room1 + " " + con.room2);
+            if (roomIsConnected)
             {
-                connectedRooms.Add(con.GetConnectedRoom(currentRoom));
+                Room connected = con.GetConnectedRoom(currentRoom);
+                Debug.Log("Connected room:" + connected);
+                connectedRooms.Add(connected);
             }
         }
         foreach (Room r in connectedRooms)

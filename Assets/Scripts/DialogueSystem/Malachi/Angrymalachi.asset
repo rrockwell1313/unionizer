@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8f5d8bead70ec44bb5c1facf540064, type: 3}
+  m_Name: Angrymalachi
+  m_EditorClassIdentifier: 
+  characterName: Malachi
+  dialogueText: "\"tearful, resigned I needed that escape, and you kept it from me.
+    \u2018You either die a hero, or you live long enough to see yourself become the
+    villain.\u2019 That\u2019s from \u2018The Dark Knight\u2019. Just leave me be
+    in my melancholy cave. No autographs, no encores. And certainly no signature
+    for your petition. The show is over.\""
+  nextDialogue: {fileID: 0}

@@ -8,6 +8,8 @@ public class ItemRecipient : MonoBehaviour
     public Quest quest;
     public Inventory inventory;
     public QuestLog log;
+
+    bool hasItem;
     // Start is called before the first frame update
     void Start()
     {
@@ -34,6 +36,8 @@ public class ItemRecipient : MonoBehaviour
     {
         quest.CompleteQuest();
     }
+
+    public bool HasItem() => hasItem;
 
     // This is either called when the player opens the scene, unless quest is meant to be checked when they leave
     // if so, this needs to be assigned to button when player leaves

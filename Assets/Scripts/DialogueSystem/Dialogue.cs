@@ -5,15 +5,7 @@ using UnityEngine;
 public class Dialogue : ScriptableObject
 {
     public string characterName;
-    [TextArea]
+    [TextArea(5, 20)]
     public string dialogueText;
-    public DialogueOption[] options;
-}
-
-[CreateAssetMenu(fileName = "New Option", menuName = "Dialogue System/Dialogue Option")]
-public class DialogueOption : ScriptableObject
-{
-    [TextArea]
-    public string responseText;
     public Dialogue nextDialogue;
 }

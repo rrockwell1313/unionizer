@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8f5d8bead70ec44bb5c1facf540064, type: 3}
+  m_Name: Greet1chance
+  m_EditorClassIdentifier: 
+  characterName: Chance
+  dialogueText: "\"speaking energetically on the phone Absolutely, sir! That deal
+    is a game changer! hangs up, becomes monotonous Oh, you\u2019re here with my
+    pizza? No? Thai food? Oh, you work here. You're...maintenance? No, wait, IT something.
+    What do you want?\""
+  nextDialogue: {fileID: 11400000, guid: 147bd8479a304a249aee82abd3127a3f, type: 2}

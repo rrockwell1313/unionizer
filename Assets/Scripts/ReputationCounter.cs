@@ -19,6 +19,9 @@ public class ReputationCounter : ScriptableObject
 
     public void Irritate()
     {
-        reputation--;
+        if (reputation > 0)
+        {
+            reputation--;
+        }
     }
 }

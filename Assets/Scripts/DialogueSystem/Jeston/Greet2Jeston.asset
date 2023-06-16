@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8f5d8bead70ec44bb5c1facf540064, type: 3}
+  m_Name: Greet2Jeston
+  m_EditorClassIdentifier: 
+  characterName: Jeston
+  dialogueText: "\"Unionize? Hot dog! That's like the ultimate prank on management!
+    I\u2019m in, buddy! But, you know, Jeston don\u2019t just sign any piece of paper
+    without a little something in return. I scratch your back, you help me pull off
+    an epic gag. Deal?\""
+  nextDialogue: {fileID: 11400000, guid: 4250548cd26a768498d5408525d4d822, type: 2}

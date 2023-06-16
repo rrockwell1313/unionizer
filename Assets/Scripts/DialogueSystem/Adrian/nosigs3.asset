@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8f5d8bead70ec44bb5c1facf540064, type: 3}
+  m_Name: nosigs3
+  m_EditorClassIdentifier: 
+  characterName: 
+  dialogueText: laughs boisterously Is this a joke? You really think THIS is enough
+    to make me change anything? Sit down, let's have a talk about how the world works,
+    kid.
+  nextDialogue: {fileID: 11400000, guid: 9058a350832b58245a27681304a59162, type: 2}

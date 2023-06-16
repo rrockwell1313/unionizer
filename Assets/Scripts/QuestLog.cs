@@ -20,7 +20,10 @@ public class QuestLog : ScriptableObject
 
     public void AddQuest(Quest newQuest)
     {
-
+        if (!quests.Contains(newQuest))
+        {
+            quests.Add(newQuest);
+        }
     }
 
     public Quest[] GetQuests()

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8f5d8bead70ec44bb5c1facf540064, type: 3}
+  m_Name: PetitDulcinea
+  m_EditorClassIdentifier: 
+  characterName: Dulcinea
+  dialogueText: "\"Unionize? Like, a labor union? Oh, that might mean better coffee
+    in the break room! And maybe an endless supply of cookies? But wait, signing
+    things makes me nervous. Can\u2019t focus... hmm. You help me, I help you? Deal?\""
+  nextDialogue: {fileID: 11400000, guid: 92160217f703b7347997e12e5d1c0261, type: 2}
