@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c79606fc16e5ff74396a8f3a6d0f227a, type: 3}
   m_Name: MetPriscilla
   m_EditorClassIdentifier: 
-  value: 1
+  value: 0
