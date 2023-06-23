@@ -24,7 +24,7 @@ public class QuestAssignment : MonoBehaviour
     {
         log.AddQuest(quest);
 
-        if (item != null && !inventory.IsFull())
+        if (item != null)
         {
             inventory.AddItem(item);
         }

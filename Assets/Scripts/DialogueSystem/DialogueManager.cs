@@ -24,9 +24,6 @@ public class DialogueManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-#if UNITY_EDITOR
-        hasMet.value = false;
-#endif
         panel.SetActive(false);
         timeAtStartOfScene = Time.time;
     }
@@ -52,11 +49,13 @@ public class DialogueManager : MonoBehaviour
         panel.SetActive(true);
         if (!hasMet.value)
         {
+            Debug.Log("Has not met");
             hasMet.value = true;
             DisplayDialogue(greetDialogue);
         }
         else
         {
+            Debug.Log("Has met");
             Reputation rep = counter.GetReputation();
             bool hasQuest = log.HasQuest(myQuest);
             if (rep == Reputation.PLEASED)

@@ -32,11 +32,6 @@ public class ItemRecipient : MonoBehaviour
             CheckQuest();
     }
 
-    public void GiveItem()
-    {
-        quest.CompleteQuest();
-    }
-
     public bool HasItem() => hasItem;
 
     // This is either called when the player opens the scene, unless quest is meant to be checked when they leave
@@ -52,6 +47,7 @@ public class ItemRecipient : MonoBehaviour
             {
                 // They have the thing I'm looking for
                 Debug.Log("They have the item I'm supposed to receive");
+                quest.CompleteQuest();
                 // But should I hate them if they still have it in their inventory when they leave?
                 // This should only be called when a player is leaving the office without attempting to give item
                 if (quest.checkWhenLeave)

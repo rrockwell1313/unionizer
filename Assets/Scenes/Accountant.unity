@@ -493,11 +493,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1be6465484ff874c90f76763a65f302, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  counter: {fileID: 0}
-  preQuest: 
-  notIrritated: hey you didn't finish my task, wtf?
-  irritated: 
-  angry: 
 --- !u!4 &913114284
 Transform:
   m_ObjectHideFlags: 0
