@@ -968,6 +968,22 @@ PrefabInstance:
       propertyPath: m_margin.z
       value: -839.59674
       objectReference: {fileID: 0}
+    - target: {fileID: 678543475231547471, guid: 4d490202c1e67f244aa035b58b9c2be4, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1827.5364
+      objectReference: {fileID: 0}
+    - target: {fileID: 678543475231547471, guid: 4d490202c1e67f244aa035b58b9c2be4, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 990.8328
+      objectReference: {fileID: 0}
+    - target: {fileID: 678543475231547471, guid: 4d490202c1e67f244aa035b58b9c2be4, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 7.3396
+      objectReference: {fileID: 0}
+    - target: {fileID: 678543475231547471, guid: 4d490202c1e67f244aa035b58b9c2be4, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0
+      objectReference: {fileID: 0}
     - target: {fileID: 1615754856313896914, guid: 4d490202c1e67f244aa035b58b9c2be4, type: 3}
       propertyPath: m_IsActive
       value: 1

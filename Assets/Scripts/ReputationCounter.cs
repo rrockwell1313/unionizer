@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum Reputation { ANGRY, IRRITATED, NEUTRAL, HAPPY, PLEASED }
+public enum Reputation { ANGRY, IRRITATED, NEUTRAL, HAPPY, PLEASED, NONE } //Chandler, I added NONE to the list 
 
 [CreateAssetMenu(fileName = "New Reputation", menuName = "Reputation Counter")]
 public class ReputationCounter : ScriptableObject
