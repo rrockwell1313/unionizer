@@ -35,7 +35,7 @@ public class QuestTracker : ScriptableObject
             // get angy
             reputation--;
             // if angy, kick out
-            if (reputation = Reputation.ANGRY)
+            if (reputation == Reputation.ANGRY)
             {
                 return angryDialogue;
             }
