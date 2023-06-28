@@ -44,11 +44,11 @@ public class MapButtonBehavior : MonoBehaviour
             Debug.Log(r);
         foreach (ReputationDisplay d in displays)
         {
-            d.button.image.color = reputationColors[(int)d.counter.GetReputation()];
-            if (!connectedRooms.Contains(d.room))
-            {
-                d.button.interactable = false;
-            }
+            //d.button.image.color = reputationColors[(int)d.counter.GetReputation()];
+            //if (!connectedRooms.Contains(d.room))
+            //{
+            //    d.button.interactable = false;
+            //}
         }
     }
 
@@ -56,7 +56,8 @@ public class MapButtonBehavior : MonoBehaviour
     public struct ReputationDisplay
     {
         public Room room;
-        public ReputationCounter counter;
+        // Replace with new quest tracker
+        //public ReputationCounter counter;
         public Button button;
     }
 

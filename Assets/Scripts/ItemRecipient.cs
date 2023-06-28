@@ -52,7 +52,7 @@ public class ItemRecipient : MonoBehaviour
                 // This should only be called when a player is leaving the office without attempting to give item
                 if (quest.checkWhenLeave)
                 {
-                    quest.repCounter.Irritate();
+                    //quest.repCounter.Irritate();
                     Debug.Log("They did not give the item, I'm mad");
                 }
             }
@@ -63,7 +63,7 @@ public class ItemRecipient : MonoBehaviour
                 if (!quest.checkWhenLeave)
                 {
                     Debug.Log("They don't have my item and I'm mad");
-                    quest.repCounter.Irritate();
+                    //quest.repCounter.Irritate();
                 }
             }
         }

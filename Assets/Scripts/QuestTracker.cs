@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-//public enum Reputation { ANGRY, IRRITATED, NEUTRAL, HAPPY, PLEASED, NONE } //Chandler right here I commented out the top line
+public enum Reputation { ANGRY, IRRITATED, NEUTRAL, HAPPY, PLEASED, NONE }
 
 public enum QuestStatus { NONE, ASSIGNED, COMPLETED, TURNED_IN }
 
@@ -35,7 +35,7 @@ public class QuestTracker : ScriptableObject
             // get angy
             reputation--;
             // if angy, kick out
-            if (reputation == Reputation.ANGRY)  //Chandler, right here I put == instead of =
+            if (reputation == Reputation.ANGRY)
             {
                 return angryDialogue;
             }
@@ -52,8 +52,8 @@ public class QuestTracker : ScriptableObject
         }
         else
         {
-            // hey how's it going 
-            return new string[] { "Hey, how's it going?" };
+            // hey hows it going 
+            return new string[] { "Hey, hows it going?" };
         }
     }
 }
