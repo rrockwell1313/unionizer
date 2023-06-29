@@ -5601,8 +5601,24 @@ PrefabInstance:
       value: 51.19995
       objectReference: {fileID: 0}
     - target: {fileID: 2452267041378623098, guid: 8fb274ba2346d7d40a640a098dba29ab, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2452267041378623098, guid: 8fb274ba2346d7d40a640a098dba29ab, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 812613504}
+    - target: {fileID: 2452267041378623098, guid: 8fb274ba2346d7d40a640a098dba29ab, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2452267041378623098, guid: 8fb274ba2346d7d40a640a098dba29ab, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ShowMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 2452267041378623098, guid: 8fb274ba2346d7d40a640a098dba29ab, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ToggleMap, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2452267041378623099, guid: 8fb274ba2346d7d40a640a098dba29ab, type: 3}
       propertyPath: m_LocalScale.x
