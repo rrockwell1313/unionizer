@@ -136,7 +136,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7861791758361797507, guid: 3f7be251c9c17a445b843300583da0d5, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7861791758361797507, guid: 3f7be251c9c17a445b843300583da0d5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -320,7 +320,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &117477979
 GameObject:
@@ -416,54 +416,6 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!1 &616437786
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 616437788}
-  - component: {fileID: 616437787}
-  m_Layer: 0
-  m_Name: QuestChecker - Sales paperwork
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &616437787
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 616437786}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f222aca4f1358b144a2fa18a7773f9a3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemToReceive: {fileID: 11400000, guid: 4e40575cb1bdf4345a65801075a8f4c9, type: 2}
-  quest: {fileID: 11400000, guid: 83c6ff07e27ea4e46b67fd98c9106b49, type: 2}
-  inventory: {fileID: 11400000, guid: 1369575681e595a4cb2c12ef661e10b0, type: 2}
-  log: {fileID: 11400000, guid: fa8c8fde523e7994db09b5832d388d01, type: 2}
---- !u!4 &616437788
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 616437786}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.7976398, y: -0.6888473, z: -3.2735746}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &913114282
 GameObject:
   m_ObjectHideFlags: 0
@@ -506,7 +458,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1148039005 stripped
 MonoBehaviour:
@@ -560,7 +512,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4977201942543350943, guid: 4d490202c1e67f244aa035b58b9c2be4, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4977201942543350943, guid: 4d490202c1e67f244aa035b58b9c2be4, type: 3}
       propertyPath: m_AnchorMax.x
@@ -681,17 +633,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cbef8adc774c914b9a046fb04ce0b37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  characterName: Dulcinea
   panel: {fileID: 1260191678}
   delayDuration: 2
   dialogueText: {fileID: 1260191677}
-  greetDialogue: {fileID: 11400000, guid: 72325d5e15634984a85671d33ee29b20, type: 2}
-  hasMet: {fileID: 11400000, guid: a1eceb78e307e2c4b814908086c6e741, type: 2}
-  irritatedDialogue: {fileID: 11400000, guid: 0166a94abc4d31a4b85fa425ef8a8496, type: 2}
-  angryDialogue: {fileID: 11400000, guid: b4c6256390789804fb7cd13f265b165f, type: 2}
-  pleasedDialogue: {fileID: 11400000, guid: 93d25ed42c375434598c2382b3d69c6b, type: 2}
-  counter: {fileID: 11400000, guid: 04251fed3f75b6e47bb098671c8f7266, type: 2}
-  myQuest: {fileID: 11400000, guid: f707cb0d683050a4f8ed5d55666436b7, type: 2}
-  log: {fileID: 11400000, guid: fa8c8fde523e7994db09b5832d388d01, type: 2}
+  myTracker: {fileID: 11400000, guid: 594e40df5be9f5d489b3e226f8767f34, type: 2}
+  recipientTracker: {fileID: 11400000, guid: f490333daf8931c4ca23fe808e3caef4, type: 2}
+  receiveDialogue:
+  - Sales paperwork? I've got a mountain of accounting to do! But... maybe if I help
+    him out this time, he'll owe me one later. Plus, I could use a break from these
+    numbers. takes the paperwork Tell him he owes me a dozen donuts!"
 --- !u!4 &1269508336
 Transform:
   m_ObjectHideFlags: 0
@@ -705,55 +656,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1339439407
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1339439409}
-  - component: {fileID: 1339439408}
-  m_Layer: 0
-  m_Name: QuestChecker - donuts
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1339439408
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1339439407}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f222aca4f1358b144a2fa18a7773f9a3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemToReceive: {fileID: 11400000, guid: 9cb11bda5af660240a9f0c6889bcdb8b, type: 2}
-  quest: {fileID: 11400000, guid: f707cb0d683050a4f8ed5d55666436b7, type: 2}
-  inventory: {fileID: 11400000, guid: 1369575681e595a4cb2c12ef661e10b0, type: 2}
-  log: {fileID: 11400000, guid: fa8c8fde523e7994db09b5832d388d01, type: 2}
---- !u!4 &1339439409
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1339439407}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.7976398, y: -0.6888473, z: -3.2735746}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1413266910
 PrefabInstance:
@@ -768,7 +671,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2863342689282636066, guid: 97fa8d4e36bb23448a996bca4f9cf38d, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2863342689282636066, guid: 97fa8d4e36bb23448a996bca4f9cf38d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -893,7 +796,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1657758224
 GameObject:
@@ -926,7 +829,7 @@ Transform:
   - {fileID: 117477980}
   - {fileID: 89485002}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1844094574 stripped
 MonoBehaviour:
@@ -1005,7 +908,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 284783873452544379, guid: 3660e92036c61534bbe7f5bd6ab9e158, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 284783873452544379, guid: 3660e92036c61534bbe7f5bd6ab9e158, type: 3}
       propertyPath: m_LocalPosition.x

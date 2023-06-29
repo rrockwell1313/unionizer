@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c3e6df8cfdcf3647ab2702282bcc1d5, type: 3}
+  m_Name: MemoTracker
+  m_EditorClassIdentifier: 
+  reputation: 2
+  questStatus: 0
+  greetingDialogue:
+  - "looks up from a stack of papers, frazzled \"Oh, hello. You're the new developer,
+    aren\u2019t you? I\u2019ve heard about you. I\u2019m Priscilla. I'm sorry, but
+    if you need something from me, you\u2019d better be quick. My to-do list is longer
+    than War and Peace right now.\""
+  - "\"Unionize? Honestly, I could use any break I can get. But I've got enough on
+    my plate, and the boss watches my every move. I can\u2019t risk stirring the
+    pot right now unless\u2026 well, unless I can offload something.\"ed something
+    from me, you\u2019d better be quick. My to-do list is longer than War and Peace
+    right now.\""
+  - "\"Okay, here\u2019s the deal. There's this memo I have to deliver to Giacomo,
+    the Data Analyst. He\u2019s...persistent. A little too much, if you catch my
+    drift. I could use a break from his never-ending 'romantic' overtures. If you
+    could take this memo to him and save me the trouble, I\u2019ll sign your petition.
+    Fair?\""
+  irritatedDialogue:
+  - "Sighs heavily \"You still haven\u2019t given Giacomo the memo? Seriously? My
+    sanity is hanging by a thread here. Look, I agreed to sign your thing, but only
+    if you get that creep off my back for a day. Chop chop!\""
+  angryDialogue:
+  - "visibly stressed \"Seriously? This is the last straw! I cannot deal with Giacomo
+    and now I cannot deal with you! You\u2019ve had more than enough time to deliver
+    a simple memo! Forget about me signing any petition! Leave my desk area and don\u2019t
+    you dare come back without an appointment, which I will NEVER give you!\""
+  successDialogue:
+  - "\"You did it? You actually handed Giacomo the memo? Oh, thank you! You've given
+    me a moment\u2019s peace. signs the petition Here you go. And hey, if you're
+    ever interested in a career as a professional barrier between creepy analysts
+    and overworked secretaries, you've got a knack for it!\""
