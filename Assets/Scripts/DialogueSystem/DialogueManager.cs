@@ -11,6 +11,7 @@ public class DialogueManager : MonoBehaviour
     public Text dialogueText;
     public QuestTracker myTracker;
     public QuestTracker recipientTracker;
+    [TextArea]
     public string[] receiveDialogue;
 
     float timeAtStartOfScene;
@@ -51,6 +52,7 @@ public class DialogueManager : MonoBehaviour
         if (recipientTracker?.questStatus == QuestStatus.ASSIGNED)
         {
             currentDialogue = AssembleNewDialogue(receiveDialogue, myTracker.GetDialogue());
+            recipientTracker.questStatus = QuestStatus.COMPLETED;
         }
         else
         {

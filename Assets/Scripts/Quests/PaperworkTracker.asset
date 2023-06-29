@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c3e6df8cfdcf3647ab2702282bcc1d5, type: 3}
+  m_Name: PaperworkTracker
+  m_EditorClassIdentifier: 
+  reputation: 2
+  questStatus: 0
+  greetingDialogue:
+  - "Speaking energetically on the phone \"Absolutely, sir! That deal is a game changer!
+    hangs up, becomes monotonous Oh, you\u2019re here with my pizza? No? Thai food?
+    Oh, you work here. You're...maintenance? No, wait, IT something. What do you
+    want?\""
+  - "\"Unionize? Like, with tools and stuff? Oh, you mean like a... group thing.
+    Gotcha. That sounds fine, I guess. But, uhh, if we do that, some of my, umm,
+    paperwork might not look so good. I don't even like paperwork. It's like, words
+    and numbers. Why can\u2019t they stay in their own lanes, you know?\""
+  - "\"How about this, since you\u2019re good with, umm, computery things, can you
+    get someone to take over my sales paperwork? Maybe that fidgety accountant lady?
+    Dulcinea, yeah. If she could take this off my hands, I\u2019ll sign your... whatever
+    it is.\""
+  irritatedDialogue:
+  - "\"You didn't find someone for my paperwork yet? Are you sure you\u2019re not
+    the pizza delivery person? Oh well. If you\u2019re a paperwork wizard or something,
+    just wave your magic wand and get Dulcinea to help me. Then I'll sign your, uhh,
+    thing.\""
+  angryDialogue:
+  - "\"monotone, rolling his eyes Well, I guess the paperwork wizard lost his magic.
+    Honestly, I had low expectations, but you managed to get under that bar. You
+    can forget about my signature. Don't come back here without a pizza or Thai food,
+    or better yet, don\u2019t come back at all.\""
+  successDialogue:
+  - "\"Whoa, you actually did it! The papers are gone! You\u2019re like, a paper
+    whisperer. Thanks for saving me from, you know, words and numbers attacking me.
+    signs the petition There you go, buddy. Now, if you find my Thai food, let me
+    know, okay?\""

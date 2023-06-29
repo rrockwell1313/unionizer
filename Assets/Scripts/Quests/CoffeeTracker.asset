@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c3e6df8cfdcf3647ab2702282bcc1d5, type: 3}
+  m_Name: CoffeeTracker
+  m_EditorClassIdentifier: 
+  reputation: 2
+  questStatus: 0
+  greetingDialogue:
+  - "Smiling warmly \"Oh, hello dear! You must be the new developer. I'm Amelie,
+    I handle HR here. I just adore making sure everyone feels comfortable and valued.
+    Is there something on your mind? Giacomo or the security team acting up again?
+    Just spill the beans \u2013 no pun intended!\""
+  - "\"A union? Oh, my! That\u2019s such a daring move. But, if it\u2019s for the
+    betterment of my dear coworkers, I\u2019m inclined to support it. However, I
+    can\u2019t think straight without my coffee and someone seems to have misplaced
+    the coffee pot! My tummy\u2019s been acting up too, you see, and coffee calms
+    it down. It\u2019s a little embarrassing.\""
+  - "\"I\u2019d love to sign your petition, but first, could you help me find the
+    coffee pot? I heard that silly security team was playing keep-away with it earlier.
+    I would be ever so grateful if you could retrieve it so I can make a fresh pot
+    of coffee. My signature awaits!\""
+  irritatedDialogue:
+  - '"looking worried Oh dear, still no coffee pot? My insides are doing a little
+    dance. giggles nervously But I have faith in you! You look like someone who can
+    solve a coffee pot mystery. Please find it soon, my dear. A cup of joe and a
+    signed petition are both brewing in spirit!"'
+  angryDialogue:
+  - gently swinging her legs, but with a stern face "Oh dear, I had faith in you.
+    I needed that coffee to keep my spirits high. But now, my cup is empty just like
+    my patience. There'll be no signature for your petition from me. I must kindly
+    ask you to leave my office. My door is always open, but maybe not for you anymore."
+  successDialogue:
+  - "claps hands joyfully \"Oh, thank heavens! The sacred coffee pot! You, my dear,
+    are a life-saver. brews coffee Ah, the aroma! Now, let me just take a sip...
+    Perfect! As promised, here\u2019s my signature for the union. You\u2019re doing
+    a wonderful thing for all of us. Bless your heart!"

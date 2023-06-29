@@ -12,9 +12,13 @@ public class QuestTracker : ScriptableObject
     public Reputation reputation;
     public QuestStatus questStatus;
 
+    [TextArea]
     public string[] greetingDialogue;
+    [TextArea]
     public string[] irritatedDialogue;
+    [TextArea]
     public string[] angryDialogue;
+    [TextArea]
     public string[] successDialogue;
     public void Reset()
     {

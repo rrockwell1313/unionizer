@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c3e6df8cfdcf3647ab2702282bcc1d5, type: 3}
+  m_Name: PrankTracker
+  m_EditorClassIdentifier: 
+  reputation: 2
+  questStatus: 0
+  greetingDialogue:
+  - "Startled, drops a file \"Whoa there, partner! You almost scared the badge off
+    me! Jeston\u2019s the name, and security\u2019s my game. chuckles while pretending
+    to pull a gun Don't worry, I ain't gonna shoot ya. You caught me in the middle
+    of some mischief. What\u2019s up?\""
+  - "\"Unionize? Hot dog! That's like the ultimate prank on management! I\u2019m
+    in, buddy! But, you know, Jeston don\u2019t just sign any piece of paper without
+    a little something in return. I scratch your back, you help me pull off an epic
+    gag. Deal?\""
+  - " \"Alright, here\u2019s what I need from you. hands over a rolled-up paper sack
+    I need you to deliver this little package to Chance, the Sales Rep. Don\u2019t
+    you dare peek inside, that\u2019s part of the prank! I swear, it's harmless.
+    Just tell him it\u2019s from a 'secret admirer'. winks If you can pull this off
+    without cracking up, I\u2019ll sign your petition!\""
+  irritatedDialogue:
+  - "\"You haven\u2019t given Chance the package? What are ya waitin\u2019 for, Christmas?
+    Go on! Deliver the goods, and let\u2019s make this a day for the history books!
+    The longer you wait, the more my prankin\u2019 fingers start to itch!\""
+  angryDialogue:
+  - "Pretends to pull a gun, visibly annoyed \"Alright partner, you\u2019ve had your
+    fun. But Jeston ain\u2019t got time for dilly-dallying! You had a mission, and
+    you failed. My signature ain't happening. Now get on outta here before I have
+    to escort you out myself! You\u2019ve lost your Prank Squad privileges!\""
+  successDialogue:
+  - "slaps knee \"Oh, man! I wish I could've seen his face! This place needs some
+    fun, and you just helped deliver it. You\u2019re an honorary member of the Jeston
+    Prank Squad! signs the petition with a flourish Let\u2019s shake this place up
+    with that union thing! High five, comrade in pranks!\""
