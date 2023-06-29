@@ -15,15 +15,16 @@ public class Quest : ScriptableObject
     public bool checkWhenLeave = false;
     bool complete = false;
     public KeyItem item;
-    public ReputationCounter repCounter;
-    public ReputationCounter negRepCounter;
+    // Replace with new quest tracker
+    //public ReputationCounter repCounter; 
 
     public void CompleteQuest()
     {
-        complete = true;
-        repCounter.Please();
-        if (negRepCounter != null)
-            negRepCounter.Irritate();
+        // Same as above
+        //complete = true;
+        //repCounter.Please();
+        //if (negRepCounter != null)
+        //    negRepCounter.Irritate();
     }
 
     public bool IsComplete() => complete;

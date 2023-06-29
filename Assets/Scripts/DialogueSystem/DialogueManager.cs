@@ -14,7 +14,7 @@ public class DialogueManager : MonoBehaviour
     public Dialogue angryDialogue;
     public Dialogue pleasedDialogue;
     [Header("Data from Scriptable Objects")]
-    public ReputationCounter counter;
+    //public ReputationCounter counter;
     public Quest myQuest;
     public QuestLog log;
 
@@ -55,28 +55,28 @@ public class DialogueManager : MonoBehaviour
         }
         else
         {
-            Debug.Log("Has met");
-            Reputation rep = counter.GetReputation();
-            bool hasQuest = log.HasQuest(myQuest);
-            if (rep == Reputation.PLEASED)
-            {
-                DisplayDialogue(pleasedDialogue);
-            }
-            else if (hasQuest)
-            {
-                if (rep != Reputation.ANGRY)
-                {
-                    DisplayDialogue(irritatedDialogue);
-                }
-                else
-                {
-                    DisplayDialogue(angryDialogue);
-                }
-            }
-            else
-            {
-                dialogueText.text = greetDialogue.characterName + ": Hey, how's it going?";
-            }
+            //Debug.Log("Has met");
+            //Reputation rep = counter.GetReputation();
+            //bool hasQuest = log.HasQuest(myQuest);
+            //if (rep == Reputation.PLEASED)
+            //{
+            //    DisplayDialogue(pleasedDialogue);
+            //}
+            //else if (hasQuest)
+            //{
+            //    if (rep != Reputation.ANGRY)
+            //    {
+            //        DisplayDialogue(irritatedDialogue);
+            //    }
+            //    else
+            //    {
+            //        DisplayDialogue(angryDialogue);
+            //    }
+            //}
+            //else
+            //{
+            //    dialogueText.text = greetDialogue.characterName + ": Hey, how's it going?";
+            //}
         }
     }
 
