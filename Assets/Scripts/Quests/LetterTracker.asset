@@ -15,30 +15,54 @@ MonoBehaviour:
   reputation: 2
   questStatus: 0
   greetingDialogue:
-  - leans back in chair, legs crossed "Ah, il nuovo programmatore! Welcome, my friend.
-    I am Giacomo, the maestro of data! They say numbers don't lie, but let me tell
-    you, neither does love. Ah, the beautiful Priscilla. She is like a fine wine.
-    sighs dreamily What brings you to my abode of wisdom and romance?"
+  - '<b>Leans back in chair, legs crossed</b>
+
+    
+
+    "Ah, il nuovo programmatore!
+    Welcome, my friend. I am Giacomo, the maestro of data! They say numbers don''t
+    lie, but let me tell you, neither does love. Ah, the beautiful Priscilla. She
+    is like a fine wine."
+
+    
+
+    <b>Sighs dreamily</b>
+
+    
+
+    "What brings
+    you to my abode of wisdom and romance?"'
   - '"Unionize, eh? That sounds like a rebellious venture. Giacomo loves a good rebellion!
-    Ah, but Priscilla... Her smile could launch a thousand ships. I would be more
-    inspired to join your cause if only my heart''s desire were fulfilled."'
-  - '"Here''s my proposition: I have penned a love letter to the divine Priscilla,
-    a letter that carries the weight of my heart. I signed it with a kiss! smacks
-    lips Deliver it to her, and make sure she knows it''s from her secret admirer,
-    Giacomo. Then, my friend, I will sign your petition with the same passion I reserve
-    for amore!"'
+    Ah, but <color=green>Priscilla</color>... Her smile could launch a thousand ships.
+    I would be more inspired to join your cause if only my heart''s desire were fulfilled."'
+  - '
+
+    <b>smacks lips</b>
+
+    
+
+    "Here''s my proposition: I have penned
+    a love letter to the divine <color=green>Priscilla</color>, a letter that carries
+    the weight of my heart. I signed it with a kiss! Deliver it to her, and make
+    sure she knows it''s from her secret admirer, Giacomo. Then, my friend, I will
+    sign your petition with the same passion I reserve for amore!"'
   irritatedDialogue:
-  - '"Mamma mia! You have not delivered my love letter to the enchanting Priscilla?
-    My heart, it weeps! Please, I beg you, be my Cupid and deliver my affection to
-    her! Giacomo will not rest until his love knows no bounds!"'
+  - '<b>Exclaims with hands on heart</b>
+
+    
+
+    "Mamma mia! You have not delivered
+    my love letter to the enchanting <color=green>Priscilla</color>? My heart, it
+    weeps! Please, I beg you, be my Cupid and deliver my affection to her! Giacomo
+    will not rest until his love knows no bounds!"'
   angryDialogue:
-  - "in a heavy Italian accent, visibly agitated \"Madonna mia! You are toying with
-    Giacomo\u2019s heart! First, you gave me hope, and now you keep breaking it!
-    Priscilla deserves my letter of amore! Forget about Giacomo\u2019s signature!
-    Since you don\u2019t respect the art of love, you must leave Giacomo\u2019s sanctuary!
-    Arrivederci forever!\""
+  - "<b>In a heavy Italian accent, visibly agitated</b>\r\n\r\n\"Madonna mia! You
+    are toying with Giacomo\u2019s heart! First, you gave me hope, and now you keep
+    breaking it! <color=green>Priscilla</color> deserves my letter of amore! Forget
+    about Giacomo\u2019s <color=red>signature</color>! Since you don\u2019t respect
+    the art of love, you must leave Giacomo\u2019s sanctuary! Arrivederci forever!\""
   successDialogue:
-  - "\"Ah, I can feel the shift in the wind! Priscilla must have received my letter!
-    clasps hands together Grazie, my friend. As promised, Giacomo will sign your
-    petition with the fervor of a thousand poets. signs dramatically Viva la union!
-    And viva l\u2019amore!\""
+  - "<b>Clasps hands together</b>\r\n\r\n\"Ah, I can feel the shift in the wind!
+    <color=green>Priscilla</color> must have received my letter! Grazie, my friend.
+    As promised, Giacomo will sign your petition with the fervor of a thousand poets.\"\r\n\r\n<b>Signs
+    dramatically</b>\r\n\r\n\"Viva la union! And viva l\u2019amore!\""

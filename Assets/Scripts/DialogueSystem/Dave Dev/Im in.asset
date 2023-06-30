@@ -13,10 +13,11 @@ MonoBehaviour:
   m_Name: Im in
   m_EditorClassIdentifier: 
   characterName: 
-  dialogueText: "Dave: Really? That\u2019s awesome! Here, I drew a map of the office
-    areas. It's... not the best, but it should help you find everyone. And you might
-    want to hurry. Since you\u2019re the new dev, they'll be looking at you like
-    the problem guy if you're not careful. Good luck! And, uh, maybe try not to visit
-    the same place twice without results - or they could be really upset. Pick your
-    path wisely\u2026and grab some snacks for the journey."
+  dialogueText: "\"Really?! That\u2019s awesome!\"\n\n\" Here, I drew a map of the
+    office areas. It's... not the best, but it should help you find everyone...and
+    you might want to hurry. Since you\u2019re the new dev, they'll be looking at
+    you like the problem guy if you're not careful.\"\n\n\"Good luck! And, uh, maybe
+    try not to visit the same place twice without results - or they could be really
+    upset. <color=red>Pick your path wisely</color>\u2026and grab some snacks for
+    the journey.\""
   nextDialogue: {fileID: 11400000, guid: 14763f66d8dcdbf41ac57aa5ea3bb1b8, type: 2}

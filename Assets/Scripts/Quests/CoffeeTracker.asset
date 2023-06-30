@@ -15,31 +15,36 @@ MonoBehaviour:
   reputation: 2
   questStatus: 0
   greetingDialogue:
-  - "Smiling warmly \"Oh, hello dear! You must be the new developer. I'm Amelie,
-    I handle HR here. I just adore making sure everyone feels comfortable and valued.
-    Is there something on your mind? Giacomo or the security team acting up again?
-    Just spill the beans \u2013 no pun intended!\""
-  - "\"A union? Oh, my! That\u2019s such a daring move. But, if it\u2019s for the
+  - "<b>Smiling warmly</b>\r\n\r\n \"Oh, hello dear! You must be the new developer.
+    I'm Amelie, I handle HR here. I just adore making sure everyone feels comfortable
+    and valued. \r\n\r\nIs there something on your mind? Giacomo or the security
+    team acting up again?\u201D\r\n"
+  - "\"A union? Oh, my! That\u2019s such a daring move, But, if it\u2019s for the
     betterment of my dear coworkers, I\u2019m inclined to support it. However, I
-    can\u2019t think straight without my coffee and someone seems to have misplaced
-    the coffee pot! My tummy\u2019s been acting up too, you see, and coffee calms
-    it down. It\u2019s a little embarrassing.\""
+    can\u2019t think straight without my <color=green>coffee</color> and someone
+    seems to have <color=red>misplaced the coffee pot!</color> \u201C\r\n\r\n\u201CMy
+    tummy\u2019s been acting up too, you see, and coffee calms it down. <i>It\u2019s
+    a little embarrassing.</i>\"\r\n"
   - "\"I\u2019d love to sign your petition, but first, could you help me find the
-    coffee pot? I heard that silly security team was playing keep-away with it earlier.
-    I would be ever so grateful if you could retrieve it so I can make a fresh pot
-    of coffee. My signature awaits!\""
+    <color=green>coffee pot</color>? I heard that silly <color=red>security team
+    was playing keep-away</color> with it earlier.\u201D\r\n \r\n\u201CI would be
+    ever so grateful if you could retrieve it so I can make a fresh pot of coffee.
+    My signature awaits!\"\r\n"
   irritatedDialogue:
-  - '"looking worried Oh dear, still no coffee pot? My insides are doing a little
-    dance. giggles nervously But I have faith in you! You look like someone who can
-    solve a coffee pot mystery. Please find it soon, my dear. A cup of joe and a
-    signed petition are both brewing in spirit!"'
+  - "<b>*looking worried*</b>\r\n\r\n\u201COh dear, still no coffee pot? My insides
+    are doing a little dance. <i>*Giggles nervously*</i> ,But I have faith in you!\u201D\r\n
+    \r\n\u201CYou look like someone who can solve a <color=green>coffee pot mystery</color>.
+    Please find it soon, my dear. A cup of joe and a signed petition are both brewing
+    in spirit!\"\r\n"
   angryDialogue:
-  - gently swinging her legs, but with a stern face "Oh dear, I had faith in you.
-    I needed that coffee to keep my spirits high. But now, my cup is empty just like
-    my patience. There'll be no signature for your petition from me. I must kindly
-    ask you to leave my office. My door is always open, but maybe not for you anymore."
+  - "<b>Gently swinging her legs but with a stern face</b>\r\n\r\n \"Oh dear, I had
+    faith in you. I needed that coffee to keep my spirits high. But now, my cup is
+    empty just like my patience.\u201D\r\n \r\n\u201CThere'll be <color=red>no signature
+    for your petition from me.</color> I must kindly ask you to leave my office.
+    My door is always open, but maybe not for you anymore.\"\r\n"
   successDialogue:
-  - "claps hands joyfully \"Oh, thank heavens! The sacred coffee pot! You, my dear,
-    are a life-saver. brews coffee Ah, the aroma! Now, let me just take a sip...
-    Perfect! As promised, here\u2019s my signature for the union. You\u2019re doing
-    a wonderful thing for all of us. Bless your heart!"
+  - "<b>*Claps hands joyfully</b>\r\n\r\n \"Oh, thank heavens! The sacred coffee
+    pot! You, my dear, are a life-saver.\u201D\r\n\r\n <b>*Begins brewing coffee*</b>\r\n\r\n
+    \u201CAh, the aroma! Now, let me just take a sip... Perfect! As promised, here\u2019s
+    <color=green>my signature for the union.</color>. You\u2019re doing a wonderful
+    thing for all of us. Bless your heart!\r\n"

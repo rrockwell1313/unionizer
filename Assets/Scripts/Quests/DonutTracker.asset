@@ -15,27 +15,40 @@ MonoBehaviour:
   reputation: 2
   questStatus: 0
   greetingDialogue:
-  - "\"Oh, hey there! You're the new dev, right? I\u2019ve heard there\u2019s a code
-    for EVERYTHING! Can you imagine? A code for donuts! giggles Oh, don\u2019t mind
-    me, I\u2019m just jonesing for something sweet. What\u2019s up?\""
-  - "\"Unionize? Like, a labor union? Oh, that might mean better coffee in the break
-    room! And maybe an endless supply of cookies? But wait, signing things makes
-    me nervous. Can\u2019t focus... hmm. You help me, I help you? Deal?\""
-  - '"Okay! Fetch me a dozen donuts from the kitchen! But listen closely, I need
-    at least three with pink icing and sprinkles. I can almost taste them. Hurry,
-    before I fade away to nothingness! fidgets and sways side to side Donuts for
-    a signature! Go, go, go!"'
+  - "<b>Waves enthusiastically</b>\r\n\r\n\"Oh, hey there! You're the new dev, right?
+    I\u2019ve heard there\u2019s a code for <b>EVERYTHING</b>! Can you imagine? A
+    code for <color=green>donuts</color>! <i>giggles</i> Oh, don\u2019t mind me,
+    I\u2019m just jonesing for something sweet. What\u2019s up?\""
+  - "the break room! And maybe an endless supply of <color=green>cookies</color>?
+    But wait, signing things makes me nervous. Can\u2019t focus... hmm. You help
+    me, I help you? <b>Deal?</b>\""
+  - '"<b>Nods eagerly</b>
+
+    
+
+    Okay! Fetch me a <color=green>dozen donuts</color>
+    from the kitchen! But listen closely, I need at least <color=green>three with
+    pink icing and sprinkles</color>. I can almost taste them. <b>Hurry, before I
+    fade away to nothingness!</b> <i>fidgets and sways side to side</i> <color=green>Donuts</color>
+    for a <color=green>signature</color>! Go, go, go!"'
   irritatedDialogue:
-  - '"taps foot impatiently Where are the donuts?! You know, round, sugary, heaven
-    in a bite? I can''t sign anything without the sugar rush to steady my hand! My
-    signature will be squiggly! We can''t have that, can we? Donuts! Now!"'
+  - '"<b>Taps foot impatiently</b>
+
+    
+
+    Where are the <color=green>donuts</color>?!
+    You know, round, sugary, heaven in a bite? I can''t sign anything without the
+    sugar rush to steady my hand! My signature will be squiggly! We can''t have that,
+    can we? <color=green>Donuts</color>! Now!"'
   angryDialogue:
-  - "fidgeting frantically \"Are you kidding me? AGAIN? No donuts? This is like a
-    never-ending loop of disappointment! I need my sugar fix and you\u2019ve let
-    me down one too many times! Don't even think about that petition! My signature
-    is as absent as those donuts! Shoo, shoo! Donut betrayer!\""
+  - "<b>Fidgeting frantically</b>\r\n\r\n\"Are you kidding me? AGAIN? No <color=green>donuts</color>?
+    This is like a never-ending loop of disappointment! I need my sugar fix and you\u2019ve
+    let me down one too many times! Don't even think about that petition! <color=red>My
+    signature</color> is as absent as those <color=green>donuts</color>! Shoo, shoo!
+    <color=red>Donut betrayer!</color>\"\""
   successDialogue:
-  - "eyes widen \"Oh, sweet sugary angels! You\u2019ve saved my life. You're a hero!
-    Hand me a pen! No, wait! A quill! This moment needs DRAMA. Okay, fine, a pen
-    will do. signs the petition with a flourish Thanks! If this union thing doesn\u2019t
-    work out, you have a future in donut delivery!\""
+  - "\r\n<b>Eyes widen</b>\r\n\r\n\"Oh, sweet sugary angels! You\u2019ve saved my
+    life. You're a hero! Hand me a pen! No, wait! A quill! This moment needs DRAMA.
+    Okay, fine, a pen will do.\"\r\n\r\n<b>Signs the petition with a flourish</b>\r\n\r\n\"Thanks!
+    If this union thing doesn\u2019t work out, you have a future in <color=green>donut
+    delivery</color>!\""

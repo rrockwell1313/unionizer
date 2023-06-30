@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: map
   m_EditorClassIdentifier: 
   characterName: 
-  dialogueText: Hands you a badly drawn map
+  dialogueText: '*Hands you a <color=green>badly drawn map</color>*'
   nextDialogue: {fileID: 0}

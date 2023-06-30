@@ -15,12 +15,17 @@ MonoBehaviour:
   reputation: 2
   questStatus: 0
   greetingDialogue:
-  - on the phone, visibly distressed as a customer is screaming at him "Sir, I understand
-    your frustration, but... gets interrupted, tear in his eye 'Frankly, my dear,
-    I don't give a damn.' hangs up, sniffs Oh, hi there. That was a line from 'Gone
-    with the Wind'. Helps me cope with, well, gestures to phone. I'm Malachi. I do
-    customer service here. Sometimes I wish I was in a Bollywood film, dancing and
-    singing my heart out instead of dealing with this. How can I assist you today?"
+  - '<b>On the phone, visibly distressed as a customer is screaming at him</b>
+
+    
+
+    "Sir,
+    I understand your frustration, but... <b>gets interrupted, tear in his eye</b>
+    ''Frankly, my dear, I don''t give a damn.'' <b>hangs up, sniffs</b> Oh, hi there.
+    That was a line from ''Gone with the Wind''. Helps me cope with, well, <b>gestures
+    to phone</b>. I''m Malachi. I do customer service here. Sometimes I wish I was
+    in a Bollywood film, dancing and singing my heart out instead of dealing with
+    this. How can I assist you today?"'
   - "\"A union? Maybe that could change things. Like a twist in the plot. I\u2019m
     just so tired. My dreams feel as distant as the stars. But if I could have a
     piece of that dream, just for a night, maybe I could muster the energy to fight
@@ -28,19 +33,19 @@ MonoBehaviour:
   - "\"Amelie, our HR manager, she has a collection of movies for the boss. I can\u2019t
     afford those on my salary, but I love movies. Can you ask her to recommend one
     for me to watch? Something to sweep me away to a different world. If you can
-    get me a movie from her, you'll have my signature.\""
+    get me a movie from her, you'll have my <color=green>signature</color>.\""
   irritatedDialogue:
-  - "looks dejected \"Still no movie? It\u2019s like waiting for the happy ending
-    that never comes. Please, help me escape, if only for a couple of hours. Then,
-    I\u2019ll stand by you in this union endeavor.\""
+  - "<b>Looks dejected</b>\r\n\r\n\"Still no movie? It\u2019s like waiting for the
+    happy ending that never comes. Please, help me escape, if only for a couple of
+    hours. Then, I\u2019ll stand by you in this union endeavor.\""
   angryDialogue:
-  - "tearful, resigned \"I needed that escape, and you kept it from me. \u2018You
-    either die a hero, or you live long enough to see yourself become the villain.\u2019
-    That\u2019s from \u2018The Dark Knight\u2019. Just leave me be in my melancholy
-    cave. No autographs, no encores. And certainly no signature for your petition.
-    The show is over.\""
+  - "<b>Tearful, resigned</b>\r\n\r\n\"I needed that escape, and you kept it from
+    me. \u2018You either die a hero, or you live long enough to see yourself become
+    the villain.\u2019 That\u2019s from \u2018The Dark Knight\u2019. Just leave me
+    be in my melancholy cave. No autographs, no encores. And certainly no <color=red>signature
+    for your petition</color>. The show is over.\""
   successDialogue:
-  - "eyes light up \"You got it! A movie! Oh, this is just the slice of heaven I
-    needed. takes a deep breath I can feel the weight lifting already. Thank you.
-    signs the petition Through thick and thin, my fellow protagonist, we\u2019ll
-    see how our story unfolds.\"\r"
+  - "<b>Eyes light up</b>\r\n\r\n\"You got it! A movie! Oh, this is just the slice
+    of heaven I needed. <b>Takes a deep breath</b> I can feel the weight lifting
+    already. Thank you. <color=green>Signs the petition</color> Through thick and
+    thin, my fellow protagonist, we\u2019ll see how our story unfolds.\""

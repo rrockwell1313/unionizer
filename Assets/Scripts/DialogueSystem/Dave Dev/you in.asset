@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: you in
   m_EditorClassIdentifier: 
   characterName: Dave
-  dialogueText: What do you say? Are you in?
+  dialogueText: '"So...What do you say? <color=green>Are you in?</color>"'
   nextDialogue: {fileID: 11400000, guid: 2a2fda07ee68c67449db4de2e8b36342, type: 2}

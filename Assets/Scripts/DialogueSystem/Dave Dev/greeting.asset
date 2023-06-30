@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: greeting
   m_EditorClassIdentifier: 
   characterName: Dave
-  dialogueText: "Hey there, welcome to the dev team! I'm Dave. You picked quite the
-    day to start; it\u2019s the company's anniversary and everyone's on edge because
-    of the new release we pushed this morning. takes a sip of his drink"
+  dialogueText: "\"Hey there, welcome to the dev team!\"\n\n\"I'm Dave. You picked
+    quite the day to start; it\u2019s the company's anniversary and everyone's on
+    edge because of the new release we pushed this morning.\"\n\n<b><i>*Takes a sip
+    of his drink</b></i>"
   nextDialogue: {fileID: 11400000, guid: b9b35747241551042b965efc0db655b9, type: 2}

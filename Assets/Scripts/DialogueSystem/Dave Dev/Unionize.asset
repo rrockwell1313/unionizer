@@ -13,7 +13,10 @@ MonoBehaviour:
   m_Name: Unionize
   m_EditorClassIdentifier: 
   characterName: 
-  dialogueText: You know, if someone was brave enough, they could try to get everyone
-    to sign a petition to unionize. That could change things around here for the
-    better.
+  dialogueText: '"You know, if <i>someone was brave enough</i>, they could try to
+    get everyone to <color=green>sign a petition</color> to <color=green>unionize</color>.
+    "
+
+
+    "...That could change things around here for the better."'
   nextDialogue: {fileID: 11400000, guid: 0476849225767004ab5cced39a95dbb0, type: 2}
