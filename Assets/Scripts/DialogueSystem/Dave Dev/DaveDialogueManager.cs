@@ -29,7 +29,7 @@ public class DaveDialogueManager : MonoBehaviour
             if (dialogueIndex < dialogues.Length - 1)
                 dialogueText.text += "\n(Press Space to continue...)";
 
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (Input.GetKeyDown(KeyCode.Space) && dialogueIndex < dialogues.Length - 1)
             {
                 dialogueIndex++;
             }
