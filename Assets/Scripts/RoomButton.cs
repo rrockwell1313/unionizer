@@ -23,6 +23,7 @@ public class RoomButton : MonoBehaviour
 
     public void LoadRoomScene()
     {
+        Debug.Log("clicking");
         SceneManager.LoadScene(sceneName);
     }
 }

@@ -10,7 +10,7 @@ public class MapButtonBehavior : MonoBehaviour
     [Header("Reputation Representation")]
     public ReputationDisplay[] displays;
     public Color[] reputationColors;
-    RoomNavigation nav;
+    public RoomNavigation nav;
     public Room currentRoom;
 
     // Start is called before the first frame update
@@ -39,13 +39,20 @@ public class MapButtonBehavior : MonoBehaviour
         //    }
         //}
         List<Room> connectedRooms = nav.GetConnectedRooms(currentRoom);
+        foreach (Room r in connectedRooms)
+        {
+            Debug.Log(r);
+        }
         foreach (ReputationDisplay d in displays)
         {
-            d.button.image.color = reputationColors[(int)d.tracker.reputation];
-            if (!connectedRooms.Contains(d.room))
+            if (d.tracker is not null)
             {
-                d.button.interactable = false;
-            }
+                d.button.image.color = reputationColors[(int)d.tracker.reputation];
+                if (!connectedRooms.Contains(d.room))
+                {
+                    d.button.interactable = false;
+                }
+            }            
         }
     }
 
