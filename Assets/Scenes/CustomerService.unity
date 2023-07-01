@@ -865,11 +865,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cbef8adc774c914b9a046fb04ce0b37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterName: 
+  characterName: Malachi
   panel: {fileID: 902936231}
   delayDuration: 1.2
   dialogueText: {fileID: 902936230}
-  myTracker: {fileID: 0}
+  myTracker: {fileID: 11400000, guid: 29f06dcd865e8e04d834895f1f71f7dd, type: 2}
   recipientTracker: {fileID: 0}
   receiveDialogue: []
 --- !u!4 &1887761839

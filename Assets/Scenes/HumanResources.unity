@@ -152,13 +152,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cbef8adc774c914b9a046fb04ce0b37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterName: 
+  characterName: Amelie
   panel: {fileID: 1921383013}
   delayDuration: 2
   dialogueText: {fileID: 1921383012}
-  myTracker: {fileID: 11400000, guid: 594e40df5be9f5d489b3e226f8767f34, type: 2}
-  recipientTracker: {fileID: 0}
-  receiveDialogue: []
+  myTracker: {fileID: 11400000, guid: 9134c5aa4b32c8b4aa84b2e4930eb8d2, type: 2}
+  recipientTracker: {fileID: 11400000, guid: 29f06dcd865e8e04d834895f1f71f7dd, type: 2}
+  receiveDialogue:
+  - Yeah, sure I have some movies! How about this one?
 --- !u!4 &688352313
 Transform:
   m_ObjectHideFlags: 0

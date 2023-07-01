@@ -804,13 +804,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cbef8adc774c914b9a046fb04ce0b37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterName: 
+  characterName: Giacomo
   panel: {fileID: 63591770}
   delayDuration: 2
   dialogueText: {fileID: 63591769}
-  myTracker: {fileID: 0}
-  recipientTracker: {fileID: 0}
-  receiveDialogue: []
+  myTracker: {fileID: 11400000, guid: 28c428a03a7c14b4e88a1ed91b109d81, type: 2}
+  recipientTracker: {fileID: 11400000, guid: 564196f5e0b3dd64c9581bd7582329b8, type: 2}
+  receiveDialogue:
+  - Ah, my love! She wrote to me! Thank you my friend
 --- !u!4 &1811723232
 Transform:
   m_ObjectHideFlags: 0

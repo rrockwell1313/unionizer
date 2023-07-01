@@ -421,13 +421,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cbef8adc774c914b9a046fb04ce0b37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterName: 
+  characterName: Jeston
   panel: {fileID: 1644323641}
   delayDuration: 2
   dialogueText: {fileID: 1644323640}
-  myTracker: {fileID: 0}
-  recipientTracker: {fileID: 0}
-  receiveDialogue: []
+  myTracker: {fileID: 11400000, guid: aaf84abc62629aa4486324406d039d98, type: 2}
+  recipientTracker: {fileID: 11400000, guid: 9134c5aa4b32c8b4aa84b2e4930eb8d2, type: 2}
+  receiveDialogue:
+  - Oh, you need coffee? Sure! Here you go
 --- !u!4 &955121036
 Transform:
   m_ObjectHideFlags: 0
