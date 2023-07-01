@@ -488,7 +488,7 @@ PrefabInstance:
       objectReference: {fileID: 1148039005}
     - target: {fileID: 812613505, guid: 4d490202c1e67f244aa035b58b9c2be4, type: 3}
       propertyPath: currentRoom
-      value: 7
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4977201941160134532, guid: 4d490202c1e67f244aa035b58b9c2be4, type: 3}
       propertyPath: currentRoom
@@ -589,6 +589,10 @@ PrefabInstance:
     - target: {fileID: 4977201942543350943, guid: 4d490202c1e67f244aa035b58b9c2be4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7592930785854911314, guid: 4d490202c1e67f244aa035b58b9c2be4, type: 3}
+      propertyPath: m_Text
+      value: Accounting, sweet tooth
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d490202c1e67f244aa035b58b9c2be4, type: 3}
