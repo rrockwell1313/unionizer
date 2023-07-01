@@ -11,16 +11,13 @@ public class TitleScript : MonoBehaviour
     [SerializeField] private Image BlackFadeImage;
     bool IntroFinished = false;
     [SerializeField] private GameObject StampImage;
+    [SerializeField] private Text pressStart;
     private float startScale = 1.0f;
-    private float xScale = 1.0f;
-    private float yScale = 1.0f;
-    private float zScale = 1.0f;
     private float scaleSet = 3.0f;
 
     private void Start()
     {
         StampImage.transform.localScale = new Vector3(3f, 3f, 3f);
-        
         InvokeRepeating("StampImageIn", 5, .01f);
     }
     
@@ -43,12 +40,10 @@ public class TitleScript : MonoBehaviour
     }
     void FadeOutImage()
     {
-        opacity--;
-        Debug.Log("opacity = " + opacity);
-        BlackFadeImage.color = new Color(BlackFadeImage.color.r, BlackFadeImage.color.g, BlackFadeImage.color.b, opacity / 300); //increase opacity of canvas image
-        if (opacity <= 0)
+        if (opacity > 0)
         {
-            IntroFinished = true;
+            opacity--;
+            BlackFadeImage.color = new Color(BlackFadeImage.color.r, BlackFadeImage.color.g, BlackFadeImage.color.b, opacity / 300); //increase opacity of canvas image
         }
     }
     void StampImageIn()
@@ -63,6 +58,8 @@ public class TitleScript : MonoBehaviour
         if (scaleSet <= startScale)
         {
             CancelInvoke();
+            IntroFinished = true;
+            pressStart.enabled = true;
         }
     }
     void FadeToBlack()
