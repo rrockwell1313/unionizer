@@ -11,7 +11,7 @@ public class TitleScript : MonoBehaviour
     [SerializeField] private Image BlackFadeImage;
     bool IntroFinished = false;
     [SerializeField] private GameObject StampImage;
-    private Vector3 startScale;
+    private float startScale = 1.0f;
     private float xScale = 1.0f;
     private float yScale = 1.0f;
     private float zScale = 1.0f;
@@ -19,9 +19,9 @@ public class TitleScript : MonoBehaviour
 
     private void Start()
     {
-        startScale = StampImage.transform.localScale;
         StampImage.transform.localScale = new Vector3(3f, 3f, 3f);
-        StampImageIn();
+        
+        InvokeRepeating("StampImageIn", 5, .01f);
     }
     
     // Update is called once per frame
@@ -30,6 +30,7 @@ public class TitleScript : MonoBehaviour
         if (!IntroFinished)
         {
             FadeOutImage();
+            StampImageIn();
         }
         if(Input.anyKeyDown && !changingScenes && IntroFinished)
         {
@@ -53,8 +54,16 @@ public class TitleScript : MonoBehaviour
     void StampImageIn()
     {
         Debug.Log("Bring the Stamp Image In");
-
-        StampImage.transform.localScale = new Vector3(3f, 3f, 3f);
+        if (scaleSet > startScale)
+        {
+            scaleSet = scaleSet - .01f;
+            StampImage.transform.localScale = new Vector3(scaleSet, scaleSet, scaleSet);
+            Debug.Log("Current Scale = " + scaleSet);
+        }
+        if (scaleSet <= startScale)
+        {
+            CancelInvoke();
+        }
     }
     void FadeToBlack()
     {
