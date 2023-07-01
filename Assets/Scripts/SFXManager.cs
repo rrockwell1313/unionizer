@@ -4,30 +4,22 @@ using UnityEngine;
 
 public class SFXManager : MonoBehaviour
 {
+    //TO ACCESS THE SOUNDS FROM THIS SCRIPT, ADD THE FOLLOWING SFXManager.Instance.PlaySound("YourSoundName"); to the script you want to play the sound.
     public static SFXManager Instance;
-    public Component clickedButton;
+
+    [System.Serializable]
+    public class Sound
+    {
+        public string name;
+        public AudioClip clip;
+    }
+
+    public List<Sound> sounds;
+
+    public Dictionary<string, AudioClip> soundDictionary;
 
     //define source
-    [SerializeField] private AudioSource _effectsSource;
-
-    [SerializeField] public AudioClip ButtonClickSFX;
-    [SerializeField] public AudioClip MapOpenSFX;
-    [SerializeField] public AudioClip InteractOpenSFX;
-    [SerializeField] public AudioClip InteractCloseSFX;
-    [SerializeField] public AudioClip QuestWinSFX;
-    [SerializeField] public AudioClip QuestLoseSFX;
-    [SerializeField] public AudioClip RepUpSFX;
-    [SerializeField] public AudioClip RepDownSFX;
-
-    //intend to have these be randomized of a few selections
-    [SerializeField] public AudioClip HmmSFX;
-    [SerializeField] public AudioClip IdleActionSFX;
-    [SerializeField] public AudioClip AngryVoiceSFX;
-    [SerializeField] public AudioClip ContentVoiceSFX;
-
-    public Canvas Canvas;
-
-    //add public SoundManager soundManager; to script, soundManager.PlaySound(AudioClip 'clip');
+    private AudioSource _effectsSource;
 
     void Awake()
     {
@@ -40,7 +32,32 @@ public class SFXManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        //initialize the dictionary
+        soundDictionary = new Dictionary<string, AudioClip>();   
+        foreach (var sound in sounds)
+        {
+            soundDictionary.Add(sound.name, sound.clip);
+        }
+
+        _effectsSource = GetComponent<AudioSource>();
+        if (_effectsSource == null)
+        {
+            _effectsSource = gameObject.AddComponent<AudioSource>();
+        }
     }
+    public void PlaySound(string soundName)
+    {
+        if (soundDictionary.ContainsKey(soundName))
+        {
+            _effectsSource.PlayOneShot(soundDictionary[soundName]);
+        }
+        else
+        {
+            Debug.LogWarning("Sound not found: " + soundName);
+        }
+    }
+
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
