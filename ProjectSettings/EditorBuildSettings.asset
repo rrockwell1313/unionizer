@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/TitleScene.unity
+    guid: b1adb8db34b099f44b4b9e91bd7b1944
+  - enabled: 1
     path: Assets/Scenes/MyDevOffice.unity
     guid: d0839b18e2218764e84d1b58ad3ef806
   - enabled: 1
@@ -24,8 +27,8 @@ EditorBuildSettings:
     path: Assets/Scenes/HumanResources.unity
     guid: 9f2bc30f173e04a43abf9702841a1609
   - enabled: 0
-    path: Assets/Scenes/Kitchen.unity
-    guid: f7c6d8b7db6ed45409231a4aa99cdcf9
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Sales.unity
     guid: e0d5eb6d2c6660541b5cd9b0e2a80016
