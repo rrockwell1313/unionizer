@@ -156,7 +156,7 @@ MonoBehaviour:
   panel: {fileID: 1921383013}
   delayDuration: 2
   dialogueText: {fileID: 1921383012}
-  myTracker: {fileID: 0}
+  myTracker: {fileID: 11400000, guid: 594e40df5be9f5d489b3e226f8767f34, type: 2}
   recipientTracker: {fileID: 0}
   receiveDialogue: []
 --- !u!4 &688352313
@@ -830,6 +830,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 812613505, guid: 4d490202c1e67f244aa035b58b9c2be4, type: 3}
+      propertyPath: currentRoom
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4977201941160134532, guid: 4d490202c1e67f244aa035b58b9c2be4, type: 3}
       propertyPath: currentRoom
       value: 5
