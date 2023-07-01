@@ -7,16 +7,14 @@ public class ResetSOValues : MonoBehaviour
     //[SerializeField]
     //ReputationCounter[] reputations;
     [SerializeField]
-    Petition petition;
+    QuestTracker[] questTrackers;
     // Start is called before the first frame update
     void Start()
     {
-        //foreach(ReputationCounter rep in reputations)
-        //{
-        //    //rep.Reset();
-        //}
-
-        petition.Reset();
+        foreach (QuestTracker tracker in questTrackers)
+        {
+            tracker.Reset();
+        }
     }
 
     // Update is called once per frame

@@ -9,7 +9,8 @@ public enum QuestStatus { NONE, ASSIGNED, COMPLETED, TURNED_IN }
 [CreateAssetMenu]
 public class QuestTracker : ScriptableObject
 {
-    public Reputation reputation;
+    [HideInInspector] public Reputation reputation;
+    public Reputation startRep = Reputation.NEUTRAL;
     public QuestStatus questStatus;
 
     [TextArea]
@@ -22,7 +23,7 @@ public class QuestTracker : ScriptableObject
     public string[] successDialogue;
     public void Reset()
     {
-        reputation = Reputation.NEUTRAL;
+        reputation = startRep;
         questStatus = QuestStatus.NONE;
     }
 
