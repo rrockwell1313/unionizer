@@ -45,7 +45,7 @@ public class MapButtonBehavior : MonoBehaviour
         }
         foreach (ReputationDisplay d in displays)
         {
-            if (d.tracker is not null)
+            if (d.tracker != null)
             {
                 d.button.image.color = reputationColors[(int)d.tracker.reputation];
                 if (!connectedRooms.Contains(d.room))

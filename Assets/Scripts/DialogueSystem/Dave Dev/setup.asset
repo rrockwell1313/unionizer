@@ -13,6 +13,10 @@ MonoBehaviour:
   m_Name: setup
   m_EditorClassIdentifier: 
   characterName: Dave
-  dialogueText: "<b><i>*sitting at his desk, munching on snacks and watching a show
-    on his second monitor while coding. \n\nHe looks over to you as you approach*</i></b>"
-  nextDialogue: {fileID: 11400000, guid: c0f15f47a2320074ba6d013922e56344, type: 2}
+  dialogueText: '<b><i>*flailing his arms about in disbelief after reading the recent
+    pay increase to everyone but the Dev team,
+
+
+    He looks over to your desk and
+    begins complaining.*</i></b>'
+  nextDialogue: {fileID: 11400000, guid: b9b35747241551042b965efc0db655b9, type: 2}
