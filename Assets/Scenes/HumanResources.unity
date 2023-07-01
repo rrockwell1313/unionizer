@@ -152,17 +152,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cbef8adc774c914b9a046fb04ce0b37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  characterName: 
   panel: {fileID: 1921383013}
   delayDuration: 2
   dialogueText: {fileID: 1921383012}
-  greetDialogue: {fileID: 11400000, guid: 7d0b4cded66dca04da00e21c508a8d39, type: 2}
-  hasMet: {fileID: 11400000, guid: b6b19a24869523a4f97ab57abe4fad45, type: 2}
-  irritatedDialogue: {fileID: 11400000, guid: 98929c6784cbb40438ce0f4d11acd3b1, type: 2}
-  angryDialogue: {fileID: 11400000, guid: 7e4341a90fd9e3146ad6a9da9a3c4f89, type: 2}
-  pleasedDialogue: {fileID: 11400000, guid: a8274a7a7a09eed43924a6491e46aed2, type: 2}
-  counter: {fileID: 11400000, guid: 623dbf0ed1939c449aa6fd1212d0c220, type: 2}
-  myQuest: {fileID: 11400000, guid: b95194094ad1a6941b9b2d75e21d1d08, type: 2}
-  log: {fileID: 11400000, guid: fa8c8fde523e7994db09b5832d388d01, type: 2}
+  myTracker: {fileID: 11400000, guid: 594e40df5be9f5d489b3e226f8767f34, type: 2}
+  recipientTracker: {fileID: 0}
+  receiveDialogue: []
 --- !u!4 &688352313
 Transform:
   m_ObjectHideFlags: 0
@@ -766,6 +762,67 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 90, y: 90, z: 90}
+--- !u!1001 &1920173283
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2314652808811329666, guid: ac71bf04ea6a9a6448112ef1b6d6814c, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: e3813a9f5307cb44bad905bd6e4a2342, type: 2}
+    - target: {fileID: 2398443097546195684, guid: ac71bf04ea6a9a6448112ef1b6d6814c, type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 2404199889749866884, guid: ac71bf04ea6a9a6448112ef1b6d6814c, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2404199889749866884, guid: ac71bf04ea6a9a6448112ef1b6d6814c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.0414338
+      objectReference: {fileID: 0}
+    - target: {fileID: 2404199889749866884, guid: ac71bf04ea6a9a6448112ef1b6d6814c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.43167114
+      objectReference: {fileID: 0}
+    - target: {fileID: 2404199889749866884, guid: ac71bf04ea6a9a6448112ef1b6d6814c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.7689707
+      objectReference: {fileID: 0}
+    - target: {fileID: 2404199889749866884, guid: ac71bf04ea6a9a6448112ef1b6d6814c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.898676
+      objectReference: {fileID: 0}
+    - target: {fileID: 2404199889749866884, guid: ac71bf04ea6a9a6448112ef1b6d6814c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2404199889749866884, guid: ac71bf04ea6a9a6448112ef1b6d6814c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.43861324
+      objectReference: {fileID: 0}
+    - target: {fileID: 2404199889749866884, guid: ac71bf04ea6a9a6448112ef1b6d6814c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2404199889749866884, guid: ac71bf04ea6a9a6448112ef1b6d6814c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2404199889749866884, guid: ac71bf04ea6a9a6448112ef1b6d6814c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -52.031
+      objectReference: {fileID: 0}
+    - target: {fileID: 2404199889749866884, guid: ac71bf04ea6a9a6448112ef1b6d6814c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ac71bf04ea6a9a6448112ef1b6d6814c, type: 3}
 --- !u!1001 &1921383009
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -773,6 +830,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 812613505, guid: 4d490202c1e67f244aa035b58b9c2be4, type: 3}
+      propertyPath: currentRoom
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4977201941160134532, guid: 4d490202c1e67f244aa035b58b9c2be4, type: 3}
       propertyPath: currentRoom
       value: 5

@@ -3997,7 +3997,7 @@ MonoBehaviour:
     m_BestFit: 1
     m_MinSize: 0
     m_MaxSize: 60
-    m_Alignment: 1
+    m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -6326,28 +6326,28 @@ MonoBehaviour:
   displays:
   - room: 7
     tracker: {fileID: 11400000, guid: 564196f5e0b3dd64c9581bd7582329b8, type: 2}
-    button: {fileID: 0}
+    button: {fileID: 5189835503899093569}
   - room: 8
     tracker: {fileID: 11400000, guid: f490333daf8931c4ca23fe808e3caef4, type: 2}
-    button: {fileID: 0}
+    button: {fileID: 1576977981949752967}
   - room: 5
     tracker: {fileID: 11400000, guid: 9134c5aa4b32c8b4aa84b2e4930eb8d2, type: 2}
-    button: {fileID: 0}
+    button: {fileID: 2294717799077702215}
   - room: 6
     tracker: {fileID: 11400000, guid: 29f06dcd865e8e04d834895f1f71f7dd, type: 2}
-    button: {fileID: 0}
+    button: {fileID: 715647276306135645}
   - room: 3
     tracker: {fileID: 11400000, guid: 28c428a03a7c14b4e88a1ed91b109d81, type: 2}
-    button: {fileID: 0}
+    button: {fileID: 2213658949158476900}
   - room: 2
     tracker: {fileID: 11400000, guid: aaf84abc62629aa4486324406d039d98, type: 2}
-    button: {fileID: 0}
+    button: {fileID: 7864473971319630761}
   - room: 1
     tracker: {fileID: 11400000, guid: 594e40df5be9f5d489b3e226f8767f34, type: 2}
-    button: {fileID: 0}
+    button: {fileID: 1796973019326958727}
   - room: 4
     tracker: {fileID: 0}
-    button: {fileID: 0}
+    button: {fileID: 1467802520068226896}
   reputationColors:
   - {r: 1, g: 0, b: 0, a: 1}
   - {r: 1, g: 0.5560052, b: 0, a: 1}

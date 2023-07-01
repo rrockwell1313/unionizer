@@ -180,6 +180,67 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09a85b41dcbcda04ab4e0e63b729f834, type: 3}
+--- !u!1001 &152869558
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2314652808811329666, guid: ac71bf04ea6a9a6448112ef1b6d6814c, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: e3813a9f5307cb44bad905bd6e4a2342, type: 2}
+    - target: {fileID: 2398443097546195684, guid: ac71bf04ea6a9a6448112ef1b6d6814c, type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 2404199889749866884, guid: ac71bf04ea6a9a6448112ef1b6d6814c, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2404199889749866884, guid: ac71bf04ea6a9a6448112ef1b6d6814c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.879436
+      objectReference: {fileID: 0}
+    - target: {fileID: 2404199889749866884, guid: ac71bf04ea6a9a6448112ef1b6d6814c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.43167114
+      objectReference: {fileID: 0}
+    - target: {fileID: 2404199889749866884, guid: ac71bf04ea6a9a6448112ef1b6d6814c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.6610825
+      objectReference: {fileID: 0}
+    - target: {fileID: 2404199889749866884, guid: ac71bf04ea6a9a6448112ef1b6d6814c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.8632997
+      objectReference: {fileID: 0}
+    - target: {fileID: 2404199889749866884, guid: ac71bf04ea6a9a6448112ef1b6d6814c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2404199889749866884, guid: ac71bf04ea6a9a6448112ef1b6d6814c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.50469154
+      objectReference: {fileID: 0}
+    - target: {fileID: 2404199889749866884, guid: ac71bf04ea6a9a6448112ef1b6d6814c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2404199889749866884, guid: ac71bf04ea6a9a6448112ef1b6d6814c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2404199889749866884, guid: ac71bf04ea6a9a6448112ef1b6d6814c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 60.622
+      objectReference: {fileID: 0}
+    - target: {fileID: 2404199889749866884, guid: ac71bf04ea6a9a6448112ef1b6d6814c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ac71bf04ea6a9a6448112ef1b6d6814c, type: 3}
 --- !u!1001 &472600010
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -360,17 +421,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cbef8adc774c914b9a046fb04ce0b37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  characterName: 
   panel: {fileID: 1644323641}
   delayDuration: 2
   dialogueText: {fileID: 1644323640}
-  greetDialogue: {fileID: 11400000, guid: 61edee6961d3d5f45ba41af136ccef9b, type: 2}
-  hasMet: {fileID: 11400000, guid: 51062a494c3766e4090cfa27099f96ed, type: 2}
-  irritatedDialogue: {fileID: 11400000, guid: 726e8f28bd195604ca17000c9dee62fb, type: 2}
-  angryDialogue: {fileID: 11400000, guid: e9b356c56b58d7f4e8eda16dbebcddbc, type: 2}
-  pleasedDialogue: {fileID: 11400000, guid: d3fa597fdb4e78140950d0c9ecd34306, type: 2}
-  counter: {fileID: 11400000, guid: 17c66bf9c86af5b4c97c35f51e036ed1, type: 2}
-  myQuest: {fileID: 11400000, guid: 33f3fae70f4faf746a4e939e22c2a14f, type: 2}
-  log: {fileID: 11400000, guid: fa8c8fde523e7994db09b5832d388d01, type: 2}
+  myTracker: {fileID: 0}
+  recipientTracker: {fileID: 0}
+  receiveDialogue: []
 --- !u!4 &955121036
 Transform:
   m_ObjectHideFlags: 0
@@ -487,6 +544,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 812613505, guid: 4d490202c1e67f244aa035b58b9c2be4, type: 3}
+      propertyPath: currentRoom
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4977201941160134532, guid: 4d490202c1e67f244aa035b58b9c2be4, type: 3}
       propertyPath: currentRoom
       value: 2
