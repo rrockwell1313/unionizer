@@ -14,19 +14,63 @@ public class MapButtonBehavior : MonoBehaviour
     public Room currentRoom;
 
     // Start is called before the first frame update
-    void Start()
+private void Start()
     {
-        UpdateButtonReputationDisplays();
-    }
+        if (nav == null)
+        {
+            Debug.LogError("RoomNavigation reference is missing!");
+            return;
+        }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        UpdateButtonReputationDisplays();
     }
 
     public void UpdateButtonReputationDisplays()
     {
+        if (nav == null)
+        {
+            Debug.LogError("RoomNavigation reference is missing! Can't update button reputation displays.");
+            return;
+        }
+        
+        List<Room> connectedRooms = nav.GetConnectedRooms(currentRoom);
+        
+        // Debug logs connected rooms
+        foreach (Room r in connectedRooms)
+        {
+            Debug.Log($"Connected room: {r}");
+        }
+        
+        foreach (ReputationDisplay d in displays)
+        {
+            if (d.tracker == null)
+            {
+                Debug.LogWarning($"ReputationDisplay missing QuestTracker for room {d.room}.");
+                continue; // Skip this iteration
+            }
+            
+            if (d.button == null || d.button.image == null)
+            {
+                Debug.LogWarning($"ReputationDisplay missing Button or Image reference for room {d.room}.");
+                continue; // Skip this iteration
+            }
+
+            int reputationIndex = (int)d.tracker.reputation;
+            
+            // Check if the reputation index is within the bounds of the reputationColors array
+            if (reputationIndex >= 0 && reputationIndex < reputationColors.Length)
+            {
+                d.button.image.color = reputationColors[reputationIndex];
+            }
+            else
+            {
+                Debug.LogError($"Invalid reputation index {reputationIndex} for room {d.room}.");
+            }
+            
+            // If the room represented by this display is not connected, make the button not interactable
+            d.button.interactable = connectedRooms.Contains(d.room);
+        }
+        #region Chandlers Commented out area. Closing for readability. 
         //foreach (RoomConnection con in connections)
         //{
         //    bool roomIsConnected = con.RoomIsConnected(currentRoom);
@@ -38,22 +82,7 @@ public class MapButtonBehavior : MonoBehaviour
         //        connectedRooms.Add(connected);
         //    }
         //}
-        List<Room> connectedRooms = nav.GetConnectedRooms(currentRoom);
-        foreach (Room r in connectedRooms)
-        {
-            Debug.Log(r);
-        }
-        foreach (ReputationDisplay d in displays)
-        {
-            if (d.tracker != null)
-            {
-                d.button.image.color = reputationColors[(int)d.tracker.reputation];
-                if (!connectedRooms.Contains(d.room))
-                {
-                    d.button.interactable = false;
-                }
-            }            
-        }
+        #endregion
     }
 
     [System.Serializable]
