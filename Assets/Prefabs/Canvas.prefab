@@ -6348,14 +6348,14 @@ MonoBehaviour:
   - room: 4
     tracker: {fileID: 0}
     button: {fileID: 1467802520068226896}
-  reputationColors:
-  - {r: 1, g: 0, b: 0, a: 1}
-  - {r: 1, g: 0.5560052, b: 0, a: 1}
-  - {r: 1, g: 0.8795769, b: 0, a: 1}
-  - {r: 0, g: 0.41398382, b: 1, a: 1}
-  - {r: 0.023373853, g: 0.6981132, b: 0.009878943, a: 1}
+  smileyFaces:
+  - {fileID: 21300000, guid: b477de9ce883770438bc622d714e0a50, type: 3}
+  - {fileID: 21300000, guid: 2c8059d059576124ba113af91558fd51, type: 3}
+  - {fileID: 21300000, guid: 687561be7159da648b0dded93d9859d3, type: 3}
+  - {fileID: 21300000, guid: 4430160019048214997d8fae46ddd609, type: 3}
+  - {fileID: 21300000, guid: ad9189a00af08de4fa3bf6bb9ed10245, type: 3}
   nav: {fileID: 11400000, guid: 42de9a2b8a534d44f9826b66de07cbb0, type: 2}
-  currentRoom: 0
+  currentRoom: 5
 --- !u!224 &4977201942649773139 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2452267041898993401, guid: 8fb274ba2346d7d40a640a098dba29ab, type: 3}
