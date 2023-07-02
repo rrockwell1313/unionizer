@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class DaveDialogueManager : MonoBehaviour
 {
+    public SFXManager sfxManager;
     public Dialogue[] dialogues;
     public float dialogueDelay = 1.3f;
     public GameObject panel;
@@ -15,6 +16,7 @@ public class DaveDialogueManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        sfxManager = GetComponent<SFXManager>();
         timeAtStartOfScene = Time.time;
         panel.SetActive(false);
     }
@@ -32,6 +34,7 @@ public class DaveDialogueManager : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Space) && dialogueIndex < dialogues.Length - 1)
             {
                 dialogueIndex++;
+                SFXManager.Instance.PlaySound("MaleHmm0" + Random.Range(1, 6));
             }
         }
     }
