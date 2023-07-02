@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
+    public SFXManager sfxManager;
     public string characterName;
     public GameObject panel;
     public float delayDuration = 2.0f;
@@ -21,6 +22,7 @@ public class DialogueManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        sfxManager = GetComponent<SFXManager>();
         panel.SetActive(false);
         timeAtStartOfScene = Time.time;
     }
@@ -68,6 +70,16 @@ public class DialogueManager : MonoBehaviour
         if (HasNextDialogue(dialogue))
         {
             dialogueText.text += "\n(Press Space to continue...)";
+        }
+        if (characterName == "Dulcinea" || characterName == "Amelie" || characterName == "Priscilla")
+        {
+            SFXManager.Instance.PlaySound("FemaleHmm0" + Random.Range(1, 6));
+            Debug.Log("It's working in the lady office");
+        }
+        else
+        {
+            SFXManager.Instance.PlaySound("MaleHmm0" + Random.Range(1, 6));
+            Debug.Log("It's working in the lady office");
         }
     }
 
