@@ -48,12 +48,10 @@ public class TitleScript : MonoBehaviour
     }
     void StampImageIn()
     {
-        Debug.Log("Bring the Stamp Image In");
         if (scaleSet > startScale)
         {
             scaleSet = scaleSet - .01f;
             StampImage.transform.localScale = new Vector3(scaleSet, scaleSet, scaleSet);
-            Debug.Log("Current Scale = " + scaleSet);
         }
         if (scaleSet <= startScale)
         {
@@ -65,7 +63,6 @@ public class TitleScript : MonoBehaviour
     void FadeToBlack()
     {
         opacity++;
-        Debug.Log("opacity = " + opacity);
         BlackFadeImage.color = new Color(BlackFadeImage.color.r, BlackFadeImage.color.g, BlackFadeImage.color.b, opacity / 300); //increase opacity of canvas image
         if (opacity >= 300)
         {

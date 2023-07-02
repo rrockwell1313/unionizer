@@ -9,7 +9,7 @@ public class MapButtonBehavior : MonoBehaviour
 {
     [Header("Reputation Representation")]
     public ReputationDisplay[] displays;
-    public Color[] reputationColors;
+    public Sprite[] smileyFaces;
     public RoomNavigation nav;
     public Room currentRoom;
 
@@ -58,13 +58,14 @@ private void Start()
             int reputationIndex = (int)d.tracker.reputation;
             
             // Check if the reputation index is within the bounds of the reputationColors array
-            if (reputationIndex >= 0 && reputationIndex < reputationColors.Length)
+            if (reputationIndex >= 0 && reputationIndex < smileyFaces.Length)
             {
-                d.button.image.color = reputationColors[reputationIndex];
+                d.button.image.sprite = smileyFaces[reputationIndex];
             }
             else
             {
                 Debug.LogError($"Invalid reputation index {reputationIndex} for room {d.room}.");
+                Debug.Log($"ReputationIndex: {reputationIndex}, smiley faces length: {smileyFaces.Length}");
             }
             
             // If the room represented by this display is not connected, make the button not interactable

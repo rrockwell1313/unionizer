@@ -35,7 +35,7 @@ public class QuestTracker : ScriptableObject
             questStatus = QuestStatus.ASSIGNED;
             return greetingDialogue;
         }
-        else if (questStatus == QuestStatus.ASSIGNED)
+        else if (questStatus == QuestStatus.ASSIGNED && reputation != Reputation.ANGRY)
         {
             // get angy
             reputation--;
