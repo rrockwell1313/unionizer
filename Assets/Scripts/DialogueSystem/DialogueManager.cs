@@ -42,6 +42,16 @@ public class DialogueManager : MonoBehaviour
                 Debug.Log("Triggering next dialogue");
                 countDialogue++;
                 DisplayDialogue(currentDialogue);
+                if (characterName == "Dulcinea" || characterName == "Amelie" || characterName == "Priscilla")
+                {            
+                    SFXManager.Instance.PlaySound("FemaleHmm0" + Random.Range(0, 6));
+                    Debug.Log("It's working in the lady office");
+                }
+                else
+                {
+                    SFXManager.Instance.PlaySound("MaleHmm0" + Random.Range(0, 6));
+                    Debug.Log("It's working in the lady office");
+                }
             }
         }        
     }
