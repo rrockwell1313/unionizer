@@ -69,7 +69,7 @@ private void Start()
             }
             
             // If the room represented by this display is not connected, make the button not interactable
-            d.button.interactable = connectedRooms.Contains(d.room);
+            d.button.interactable = (connectedRooms.Contains(d.room) && reputationIndex != 0);
         }
         #region Chandlers Commented out area. Closing for readability. 
         //foreach (RoomConnection con in connections)

@@ -25,7 +25,7 @@ public class DaveDialogueManager : MonoBehaviour
         if (timeAtStartOfScene + dialogueDelay < Time.time)
         {
             panel.SetActive(true);
-            dialogueText.text = dialogues[dialogueIndex].characterName + ": " + dialogues[dialogueIndex].dialogueText;
+            dialogueText.text = "Dave the dev: " + dialogues[dialogueIndex].dialogueText;
             if (dialogueIndex < dialogues.Length - 1)
                 dialogueText.text += "\n(Press Space to continue...)";
 
